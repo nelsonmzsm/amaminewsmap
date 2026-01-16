@@ -2,7 +2,7 @@ name: Update News Data
 
 on:
   schedule:
-    - cron: '0 22 * * *' # Every day at 22:00 UTC (7:00 JST)
+    - cron: '0 2,8,22 * * *' # JST 11:00, 17:00, 07:00
   workflow_dispatch: # Allow manual trigger
 
 permissions:
