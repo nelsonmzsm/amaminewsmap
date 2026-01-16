@@ -584,7 +584,20 @@
             select.appendChild(muniGroup);
 
             select.onchange = (e) => {
-                currentLocation = e.target.value;
+                const val = e.target.value;
+                currentLocation = val;
+
+                // Move map to selected location
+                if (val === 'all') {
+                    map.flyTo([28.2, 129.5], 9);
+                } else {
+                    const loc = LOCATIONS.find(l => l.id === val);
+                    if (loc) {
+                        const zoom = loc.type === 'muni' ? 12 : 10;
+                        map.flyTo([loc.lat, loc.lng], zoom);
+                    }
+                }
+
                 updateState();
             };
         }
@@ -620,9 +633,22 @@
             renderSidebar(filtered);
             updateMarkers(filtered);
 
-            // Update last updated
-            const lastUpdated = new Date().toLocaleString('ja-JP');
-            document.getElementById('last-updated').textContent = `Updated: ${lastUpdated}`;
+            // Calculate Last Scheduled Update (07:00, 11:00, 17:00)
+            const now = new Date();
+            const today7 = new Date(now); today7.setHours(7, 0, 0, 0);
+            const today11 = new Date(now); today11.setHours(11, 0, 0, 0);
+            const today17 = new Date(now); today17.setHours(17, 0, 0, 0);
+            const yesterday17 = new Date(now); yesterday17.setDate(now.getDate() - 1); yesterday17.setHours(17, 0, 0, 0);
+
+            let lastSchedule = yesterday17;
+            if (now >= today17) lastSchedule = today17;
+            else if (now >= today11) lastSchedule = today11;
+            else if (now >= today7) lastSchedule = today7;
+
+            const dateStr = lastSchedule.toLocaleDateString('ja-JP');
+            const timeStr = lastSchedule.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
+
+            document.getElementById('last-updated').textContent = `Updated: ${dateStr} ${timeStr}`;
             document.getElementById('article-count').textContent = filtered.length;
         }
 
