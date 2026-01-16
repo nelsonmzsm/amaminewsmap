@@ -259,11 +259,13 @@
 <body class="h-screen w-screen overflow-hidden bg-gray-50 flex flex-col md:flex-row text-gray-800">
 
     <!-- Mobile Header -->
-    <header class="md:hidden bg-white shadow-sm p-4 z-30 flex justify-between items-center relative">
-        <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff]">
-            奄美ニュースマップ
+    <header class="md:hidden bg-white shadow-sm p-4 z-30 flex justify-between items-center relative h-[60px]">
+        <h1
+            class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight">
+            Amami News Map
         </h1>
-        <button id="menu-toggle" class="p-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200">
+        <button id="menu-toggle"
+            class="p-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
                 </path>
@@ -275,11 +277,11 @@
     <aside id="sidebar"
         class="absolute md:relative transform -translate-x-full md:translate-x-0 w-full md:w-[400px] h-[calc(100%-60px)] md:h-full bg-white shadow-xl flex flex-col z-30 top-[60px] md:top-0 transition-transform duration-300">
 
-        <!-- Sidebar Header -->
+        <!-- Sidebar Header (Desktop) -->
         <div
-            class="hidden md:flex p-5 border-b border-gray-100 items-center justify-between bg-white/80 backdrop-blur-sm sticky top-0 z-10">
-            <h1 class="text-2xl font-black text-[#0099c6] tracking-tight">Amami News Map</h1>
-            <div class="text-xs text-gray-400 font-mono" id="last-updated">Updating...</div>
+            class="hidden md:flex flex-col items-start justify-center p-5 border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-10 w-full gap-1">
+            <h1 class="text-2xl font-black text-[#0099c6] tracking-tight whitespace-nowrap">Amami News Map</h1>
+            <div class="text-[10px] text-gray-400 font-mono" id="last-updated">Updating...</div>
         </div>
 
         <!-- Stats / Filter Info (Optional) -->
@@ -872,7 +874,7 @@
                                     <div class="news-content-box bg-white/95 backdrop-blur-md border border-gray-200 px-3 py-2 rounded-lg shadow-md group-hover:shadow-2xl hover:bg-white group-hover:border-[${markerColor}] transition-all flex items-start gap-2 max-w-[200px] group-hover:max-w-[400px]">
                                         <div class="shrink-0 w-1.5 rounded-full h-full min-h-[1.5em] bg-[${markerColor}] self-stretch my-0.5"></div>
                                         <div class="flex flex-col">
-                                            <span class="text-gray-800 text-xs font-bold leading-snug line-clamp-2 group-hover:line-clamp-none text-left transition-all">
+                                            <span class="text-gray-800 text-sm font-bold leading-snug line-clamp-2 group-hover:line-clamp-none text-left transition-all">
                                                 ${article.title}
                                             </span>
                                             <span class="text-[10px] text-gray-400 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -918,10 +920,32 @@
         fetchNews();
 
         // Mobile sidebar toggle (if implemented)
-        document.getElementById('menu-toggle').onclick = () => {
-            const sb = document.getElementById('sidebar');
-            sb.classList.toggle('-translate-x-full');
+        // Mobile sidebar toggle
+        const menuBtn = document.getElementById('menu-toggle');
+        const sidebar = document.getElementById('sidebar');
+        const mapContainer = document.getElementById('map');
+
+        menuBtn.onclick = (e) => {
+            e.stopPropagation(); // Prevent map click from firing immediately
+            sidebar.classList.toggle('-translate-x-full');
         };
+
+        // Close sidebar when clicking on map (mobile)
+        mapContainer.onclick = () => {
+            if (!sidebar.classList.contains('-translate-x-full') && window.innerWidth < 768) {
+                sidebar.classList.add('-translate-x-full');
+            }
+        };
+
+        // Close sidebar when clicking a news item (mobile)
+        // We use event delegation on the list container
+        document.getElementById('sidebar-list').addEventListener('click', (e) => {
+            // Check if it was a link or bubble click
+            if (window.innerWidth < 768) {
+                // Allow a small delay for visual feedback if needed, but close it
+                sidebar.classList.add('-translate-x-full');
+            }
+        });
 
         // Init Filter UI with defaults
         initFilterUI();
