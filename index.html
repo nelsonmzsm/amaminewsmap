@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>奄美群島ニュースマップ</title>
+    <title>Amami News Map</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -278,9 +278,7 @@
         <!-- Sidebar Header -->
         <div
             class="hidden md:flex p-5 border-b border-gray-100 items-center justify-between bg-white/80 backdrop-blur-sm sticky top-0 z-10">
-            <h1 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff]">
-                News in Amami
-            </h1>
+            <h1 class="text-2xl font-black text-[#0099c6] tracking-tight">Amami News Map</h1>
             <div class="text-xs text-gray-400 font-mono" id="last-updated">Updating...</div>
         </div>
 
@@ -753,14 +751,9 @@
                 // Hover Interaction
                 item.addEventListener('mouseenter', () => highlightMarker(article.id));
                 item.addEventListener('mouseleave', () => unhighlightMarker(article.id));
+                // Sidebar click: Just open the article, don't move map
                 item.addEventListener('click', () => {
-                    const marker = ARTICLE_MARKERS[article.id];
-                    if (marker) {
-                        map.flyTo(marker.getLatLng(), 11, { duration: 1.5 });
-                        // marker.openPopup(); // Disabled as per user request (hover highlights only)
-                        // But click should fly. Maybe open popup? User said "Clicking the popup opens article"
-                        // If clicking sidebar, what happens? Just Fly.
-                    }
+                    window.open(article.url, '_blank');
                 });
 
                 listContainer.appendChild(item);
@@ -772,10 +765,10 @@
             if (marker) {
                 const icon = marker.getElement();
                 if (icon) {
-                    icon.classList.add('force-expand'); // Use new expansion class
-                    icon.classList.add('marker-highlight'); // Keep z-index boost
+                    icon.classList.add('force-expand');
+                    icon.classList.add('marker-highlight');
                 }
-                marker.setZIndexOffset(9999); // Bring to front
+                marker.setZIndexOffset(9999);
             }
         }
 
@@ -787,7 +780,10 @@
                     icon.classList.remove('force-expand');
                     icon.classList.remove('marker-highlight');
                 }
-                marker.setZIndexOffset(100); // Reset z-index (approximate)
+                // Reset z-index (will be corrected by updateMarkers logic next render, or approximate here)
+                // We don't seemingly store the original z-index offset on the marker object easily, 
+                // but for now 100 is "low". Better to just drop it back.
+                marker.setZIndexOffset(500);
             }
         }
 
@@ -796,42 +792,38 @@
         // Initialize Leaflet Map
         const map = L.map('map', {
             center: [28.2, 129.5],
-            zoom: 9, // Zoomed out to see the archipelago
+            zoom: 9,
             zoomControl: false,
-            closePopupOnClick: false
-            // preferCanvas: true // Removed to ensure max compatibility with tile rendering
+            preferCanvas: true // re-enable for performance if no popups
         });
 
-        // Fix for partial map rendering: Aggressive resizing checks
-        // This handles cases where Tailwind CDN or flex layout changes size after map init
+        // Fix for partial map rendering
         const resizeObserver = new ResizeObserver(() => {
             map.invalidateSize();
         });
         resizeObserver.observe(document.getElementById('map'));
-
-        // Backup timeouts to force refresh after load
         setTimeout(() => map.invalidateSize(), 500);
-        setTimeout(() => map.invalidateSize(), 1000);
-        setTimeout(() => map.invalidateSize(), 3000);
 
-        // Use OpenStreetMap as requested for better visibility/performance
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            attribution: '&copy; OpenStreetMap contributors',
             maxZoom: 19
         }).addTo(map);
 
         L.control.zoom({ position: 'topright' }).addTo(map);
 
         // --- Markers & Logic ---
-        const markers = []; // Keep track to clear updates
+        const markers = [];
 
         function updateMarkers(currentNews) {
             markers.forEach(m => map.removeLayer(m));
             markers.length = 0;
-            ARTICLE_MARKERS = {}; // Reset lookup
+            ARTICLE_MARKERS = {};
 
             LOCATIONS.forEach(loc => {
-                const localNews = getNewsForMunicipality(loc.id, currentNews);
+                let localNews = getNewsForMunicipality(loc.id, currentNews);
+
+                // Ensure Newest First for Z-Index logic
+                localNews.sort((a, b) => b.date - a.date);
 
                 const markerColor = loc.color || '#0099c6';
 
@@ -865,41 +857,13 @@
                     const distance = 0.02 + (Math.random() * 0.03);
                     const spreadAngle = angle + (index * (Math.PI * 2 / tagsToShow.length));
 
-                    // Slightly scatter them around the muni center
                     const tagLat = loc.lat + (Math.sin(spreadAngle) * distance * 0.8);
                     const tagLng = loc.lng + (Math.cos(spreadAngle) * distance);
 
                     const delay = Math.random() * 2;
-                    const title = article.title;
                     const dateStr = article.date.toLocaleDateString();
-                    const favicon = getFavicon(article.source);
 
-                    const popupContent = `
-                        <div class="w-[280px]">
-                            <div class="relative h-32 w-full overflow-hidden bg-gray-100">
-                                <img src="${article.imageUrl}" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110" alt="News Image">
-                                <div class="absolute top-2 left-2 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full text-[10px] font-bold shadow-sm flex items-center gap-1">
-                                    <img src="${favicon}" class="w-3 h-3">
-                                    ${article.source}
-                                </div>
-                                <div class="absolute top-2 right-2 bg-black/50 text-white px-2 py-1 rounded-full text-[10px] backdrop-blur-sm">
-                                    ${dateStr}
-                                </div>
-                            </div>
-                            <div class="p-3">
-                                <a href="${article.url}" target="_blank" class="block font-bold text-gray-800 text-sm leading-snug hover:text-[#0099c6] mb-2 line-clamp-2">
-                                    ${article.title}
-                                </a>
-                                <p class="text-[11px] text-gray-500 line-clamp-2 mb-3">
-                                    ${article.content}
-                                </p>
-                                <a href="${article.url}" target="_blank" class="block w-full text-center py-2 rounded-lg bg-gray-50 hover:bg-[#0099c6] hover:text-white text-xs font-bold transition-colors text-gray-600">
-                                    記事を読む
-                                </a>
-                            </div>
-                        </div>
-                    `;
-
+                    // No Popup, Direct Link
                     const tagMarker = L.marker([tagLat, tagLng], {
                         icon: L.divIcon({
                             className: 'news-tag-icon',
@@ -909,7 +873,7 @@
                                         <div class="shrink-0 w-1.5 rounded-full h-full min-h-[1.5em] bg-[${markerColor}] self-stretch my-0.5"></div>
                                         <div class="flex flex-col">
                                             <span class="text-gray-800 text-xs font-bold leading-snug line-clamp-2 group-hover:line-clamp-none text-left transition-all">
-                                                ${title}
+                                                ${article.title}
                                             </span>
                                             <span class="text-[10px] text-gray-400 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
                                                 ${article.source} - ${dateStr}
@@ -921,26 +885,23 @@
                             iconSize: [240, 60],
                             iconAnchor: [20, 30]
                         }),
-                        // Higher z-index for newer items (lower index in the loop)
-                        // Adding a base value to ensure they are above map tiles
+                        // Higher z-index for newer items (index 0 is newest)
                         zIndexOffset: 500 + (tagsToShow.length - index)
                     }).addTo(map);
 
-
-                    // Bind Popup
-                    tagMarker.bindPopup(popupContent);
-
-                    // Interaction Logic
-                    // tagMarker.on('click', () => { window.open(article.url, '_blank'); }); // Disabled direct click to allow popup
-
-                    tagMarker.on('mouseover', () => {
-                        tagMarker.setZIndexOffset(9999);
-                        tagMarker.openPopup();
+                    // Interaction Logic: Click to open URL
+                    tagMarker.on('click', () => {
+                        window.open(article.url, '_blank');
                     });
 
+                    // Mouseover: bring to front only, no popup
+                    tagMarker.on('mouseover', () => {
+                        tagMarker.setZIndexOffset(9999);
+                    });
 
                     tagMarker.on('mouseout', () => {
-                        tagMarker.setZIndexOffset(100 + index); // Reset
+                        // Reset to original relative order
+                        tagMarker.setZIndexOffset(500 + (tagsToShow.length - index));
                     });
 
                     // Store for linkage
@@ -948,6 +909,7 @@
                     markers.push(tagMarker);
                 });
             });
+
         }
 
         // --- Initialization ---
