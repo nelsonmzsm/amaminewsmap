@@ -266,7 +266,10 @@
                 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight cursor-pointer hover:opacity-80 transition-opacity">
                 Amami News Map
             </h1>
-            <div id="mobile-last-updated" class="text-[10px] text-gray-400 font-mono leading-none mt-0.5">Updating...
+            <div class="flex items-center gap-2 mt-0.5">
+                <span id="mobile-last-updated"
+                    class="text-[10px] text-gray-400 font-mono leading-none">Updating...</span>
+                <span id="mobile-article-count" class="text-[10px] font-bold text-amami-ocean leading-none"></span>
             </div>
         </div>
         <button id="menu-toggle"
@@ -710,10 +713,16 @@
             document.getElementById('last-updated').textContent = updateText;
 
             // Mobile Update Text
+            // Mobile Update Text
             const mobileEl = document.getElementById('mobile-last-updated');
             if (mobileEl) mobileEl.textContent = updateText;
 
-            document.getElementById('article-count').textContent = filtered.length;
+            const count = filtered.length;
+            document.getElementById('article-count').textContent = count;
+
+            // Mobile Article Count
+            const mobileCountEl = document.getElementById('mobile-article-count');
+            if (mobileCountEl) mobileCountEl.textContent = `(${count}件)`;
         }
 
         function getFilteredNews(range) {
