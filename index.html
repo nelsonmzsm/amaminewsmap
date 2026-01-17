@@ -516,12 +516,13 @@
 
         // --- State Management ---
         const RANGES = [
+            { id: '2w', label: '直近2週間' },
             { id: '1m', label: '直近1ヶ月' },
             { id: 'all', label: '全期間' },
             { id: 'custom', label: '期間指定' }
         ];
 
-        let currentDateRange = '1m'; // Default to Recent 1 Month
+        let currentDateRange = '2w'; // Default to Recent 2 Weeks
         let currentMediaSource = 'all';
         let currentLocation = 'all'; // New Location State
         let currentKeyword = '';
@@ -658,7 +659,7 @@
 
         function resetFilters() {
             // Reset State
-            currentDateRange = '1m';
+            currentDateRange = '2w';
             currentLocation = 'all';
             currentMediaSource = 'all';
             currentKeyword = '';
@@ -719,14 +720,15 @@
             let cutoff = new Date();
 
             if (range === '1w') cutoff.setDate(now.getDate() - 7);
+            else if (range === '2w') cutoff.setDate(now.getDate() - 14);
             else if (range === '1m') cutoff.setMonth(now.getMonth() - 1);
             else if (range === '3m') cutoff.setMonth(now.getMonth() - 3);
             else if (range === 'all') cutoff = new Date(0); // 1970
             else if (range === 'custom' && customStartDate && customEndDate) {
                 // Handled in filter loop
             } else {
-                // Default fallback (though we set default to 1m global)
-                cutoff.setMonth(now.getMonth() - 1);
+                // Default fallback (though we set default to 1m/2w global)
+                cutoff.setDate(now.getDate() - 14);
             }
 
             let items = ALL_NEWS;
