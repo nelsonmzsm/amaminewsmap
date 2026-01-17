@@ -982,8 +982,18 @@
                     }).addTo(map);
 
                     // Interaction Logic: Double-tap (Expand -> Open)
+                    // Interaction Logic: Double-tap (Expand -> Open)
                     tagMarker.on('click', (e) => {
                         L.DomEvent.stopPropagation(e); // Prevent map click from firing
+
+                        // Detect Mobile (consistent with other checks)
+                        const isMobile = window.innerWidth < 768;
+
+                        if (!isMobile) {
+                            // Desktop: Open immediately
+                            window.open(article.url, '_blank');
+                            return;
+                        }
 
                         if (activeMarkerId === article.id) {
                             // Second tap: Open URL
