@@ -539,7 +539,7 @@
                 // Process Data
                 ALL_NEWS = data.map(item => ({
                     ...item,
-                    date: new Date(item.published)
+                    date: new Date(item.date)
                 }));
 
                 // Update UI
