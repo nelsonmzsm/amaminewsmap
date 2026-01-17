@@ -188,6 +188,10 @@ def get_news():
 def serve_news_data(filename):
     return send_from_directory('news_data', filename)
 
+@app.route('/favicon.png')
+def serve_favicon():
+    return send_from_directory('.', 'favicon.png')
+
 @app.route('/')
 def index():
     return send_from_directory('.', 'index.html')
