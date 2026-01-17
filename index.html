@@ -680,6 +680,7 @@
         }
 
         function updateState() {
+            debouncedSave(); // Save state on every update
             const filtered = getFilteredNews(currentDateRange);
             renderSidebar(filtered);
             updateMarkers(filtered);
@@ -1081,8 +1082,110 @@
             // }
         });
 
-        // Init Filter UI with defaults
-        initFilterUI();
+        // --- Persistence Logic ---
+        const STORAGE_KEY = 'amami_news_map_state';
+
+        function saveState() {
+            const listContainer = document.getElementById('sidebar-list');
+            const state = {
+                map: {
+                    center: map.getCenter(),
+                    zoom: map.getZoom()
+                },
+                sidebar: {
+                    open: !sidebar.classList.contains('-translate-x-full'),
+                    scrollTop: listContainer ? listContainer.scrollTop : 0
+                },
+                filters: {
+                    range: currentDateRange,
+                    location: currentLocation,
+                    source: currentMediaSource,
+                    keyword: currentKeyword,
+                    customStart: customStartDate,
+                    customEnd: customEndDate
+                }
+            };
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        }
+
+        function restoreState() {
+            try {
+                const raw = localStorage.getItem(STORAGE_KEY);
+                if (!raw) return;
+                const state = JSON.parse(raw);
+
+                // Restore Filters
+                if (state.filters) {
+                    currentDateRange = state.filters.range || '2w';
+                    currentLocation = state.filters.location || 'all';
+                    currentMediaSource = state.filters.source || 'all';
+                    currentKeyword = state.filters.keyword || '';
+                    if (state.filters.customStart) customStartDate = state.filters.customStart;
+                    if (state.filters.customEnd) customEndDate = state.filters.customEnd;
+                }
+
+                // Restore Map
+                if (state.map && state.map.center) {
+                    // Use setView but don't animate to be instant
+                    map.setView(state.map.center, state.map.zoom, { animate: false });
+                }
+
+                // Restore Sidebar Visibility
+                if (state.sidebar) {
+                    if (state.sidebar.open) {
+                        sidebar.classList.remove('-translate-x-full');
+                    } else {
+                        sidebar.classList.add('-translate-x-full');
+                    }
+                    // Save for render
+                    window.pendingScrollTop = state.sidebar.scrollTop;
+                }
+
+            } catch (e) {
+                console.error("State restore failed", e);
+            }
+        }
+
+        // Debounce helper
+        function debounce(func, wait) {
+            let timeout;
+            return function (...args) {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => func.apply(this, args), wait);
+            };
+        }
+
+        const debouncedSave = debounce(saveState, 500);
+
+        // Hooks
+        map.on('moveend', debouncedSave);
+        map.on('zoomend', debouncedSave);
+
+        document.getElementById('sidebar-list').addEventListener('scroll', debouncedSave);
+
+        // Hook into sidebar toggle (existing btn)
+        const originalToggle = menuBtn.onclick;
+        menuBtn.onclick = (e) => {
+            // We can just rely on the existing handler then save
+            e.stopPropagation();
+            sidebar.classList.toggle('-translate-x-full');
+            debouncedSave();
+        };
+
+        // Hook into map click sidebar close
+        map.on('click', () => {
+            // ... existing logic runs first via earlier registration ...
+            // We just add another listener to save state
+            setTimeout(debouncedSave, 100);
+        });
+
+        // Initialize
+        restoreState(); // Restore vars before UI init
+        initFilterUI(); // Create UI with restored vars
+
+        // Update Search Input to match restored value
+        document.getElementById('keyword-search').value = currentKeyword;
+
     </script>
 </body>
 
