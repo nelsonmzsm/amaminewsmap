@@ -184,6 +184,10 @@ def get_news():
     all_articles.sort(key=lambda x: x['date'], reverse=True)
     return jsonify(all_articles)
 
+@app.route('/news_data/<path:filename>')
+def serve_news_data(filename):
+    return send_from_directory('news_data', filename)
+
 @app.route('/')
 def index():
     return send_from_directory('.', 'index.html')
