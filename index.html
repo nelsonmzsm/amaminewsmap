@@ -293,6 +293,15 @@
                     class="text-[10px] text-gray-400 font-mono leading-none">Updating...</span>
             </div>
         </div>
+        <!-- Mobile Translate Button -->
+        <button onclick="toggleLangModal()"
+            class="md:hidden mr-2 p-2 text-gray-500 hover:text-amami-ocean rounded-lg bg-gray-50">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                </path>
+            </svg>
+        </button>
         <button id="menu-toggle"
             class="p-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1305,6 +1314,69 @@
 
         // Update Search Input to match restored value
         document.getElementById('keyword-search').value = currentKeyword;
+
+        // --- Translation Logic ---
+        const LANGUAGES = [
+            { code: 'ja', name: '日本語', flag: '🇯🇵' },
+            { code: 'en', name: 'English', flag: '🇺🇸' },
+            { code: 'zh-CN', name: '中国語 (簡体)', flag: '🇨🇳' },
+            { code: 'zh-TW', name: '中国語 (繁体)', flag: '🇹🇼' },
+            { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
+            { code: 'my', name: 'မြန်မာ (Burmese)', flag: '🇲🇲' }, // Myanmar
+            { code: 'tl', name: 'Tagalog', flag: '🇵🇭' },
+            { code: 'id', name: 'Indonesia', flag: '🇮🇩' },
+            { code: 'ne', name: 'Nepali', flag: '🇳🇵' },
+            { code: 'th', name: 'ภาษาไทย (Thai)', flag: '🇹🇭' },
+            { code: 'lo', name: 'Lao', flag: '🇱🇦' }
+        ];
+
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ja',
+                includedLanguages: 'zh-CN,zh-TW,vi,my,tl,id,ne,en,lo,th,ja',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        // Load Script
+        const script = document.createElement('script');
+        script.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+        document.body.appendChild(script);
+
+        function toggleLangModal() {
+            const modal = document.getElementById('lang-modal');
+            if (modal.classList.contains('hidden')) {
+                modal.classList.remove('hidden');
+            } else {
+                modal.classList.add('hidden');
+            }
+        }
+
+        // Init Modal
+        const langListEl = document.getElementById('lang-list');
+        LANGUAGES.forEach(lang => {
+            const btn = document.createElement('button');
+            btn.className = "w-full text-left px-4 py-3 hover:bg-blue-50 hover:text-amami-ocean transition-colors flex items-center border-b border-gray-50 last:border-0";
+            btn.innerHTML = `<span class="lang-flag">${lang.flag}</span> <span class="font-medium">${lang.name}</span>`;
+
+            btn.onclick = () => {
+                changeLanguage(lang.code);
+            };
+            langListEl.appendChild(btn);
+        });
+
+        function changeLanguage(langCode) {
+            if (langCode === 'ja') {
+                document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=." + document.domain + "; path=/;";
+            } else {
+                const cookieValue = `/ja/${langCode}`;
+                document.cookie = `googtrans=${cookieValue}; path=/;`;
+                document.cookie = `googtrans=${cookieValue}; domain=.${document.domain}; path=/;`;
+            }
+            window.location.reload();
+        }
 
     </script>
 </body>
