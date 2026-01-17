@@ -359,13 +359,6 @@
                 </button>
             </div>
 
-            <!-- Mobile Article Count (Below Search Bar) -->
-            <div class="md:hidden w-full flex justify-end px-1 -mt-2 mb-1">
-                <span class="text-[10px] text-gray-400 mr-1">表示:</span>
-                <span id="mobile-search-count" class="text-[10px] font-bold text-amami-ocean">0</span>
-                <span class="text-[10px] text-gray-400 ml-0.5">件</span>
-            </div>
-
             <div class="flex items-center gap-2 w-full md:w-auto">
                 <select id="location-select"
                     class="block w-1/2 md:w-32 pl-2 pr-8 py-1.5 text-xs md:text-sm border-gray-300 focus:outline-none focus:ring-amami-ocean focus:border-amami-ocean rounded-md shadow-sm bg-gray-50">
@@ -377,6 +370,18 @@
                     <option value="all">全てのメディア</option>
                     <!-- Options injected dynamically -->
                 </select>
+            </div>
+
+            <!-- Mobile Article Count (Bottom of Filter Bar) -->
+            <div
+                class="md:hidden w-full mt-1 px-3 py-1.5 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500 bg-gray-50/80 rounded-lg">
+                <div>
+                    <span id="mobile-search-count" class="font-bold text-gray-700">0</span> 件の記事を表示中
+                </div>
+                <div class="flex items-center gap-1">
+                    <span class="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                    <span class="text-[10px]">Live</span>
+                </div>
             </div>
         </div>
 
