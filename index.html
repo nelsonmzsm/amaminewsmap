@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amami News Map</title>
+    <!-- Updated: 2026-01-17 02:58 (Force Refresh Trigger 2) -->
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -259,7 +260,7 @@
 <body class="h-screen w-screen overflow-hidden bg-gray-50 flex flex-col md:flex-row text-gray-800">
 
     <!-- Mobile Header -->
-    <header class="md:hidden bg-white shadow-sm p-4 z-30 flex justify-between items-center relative h-[60px]">
+    <header class="md:hidden bg-white shadow-sm p-4 z-[4000] flex justify-between items-center relative h-[60px]">
         <h1
             class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight">
             Amami News Map
@@ -275,7 +276,7 @@
 
     <!-- Sidebar (News List) -->
     <aside id="sidebar"
-        class="absolute md:relative transform -translate-x-full md:translate-x-0 w-full md:w-[400px] h-[calc(100%-60px)] md:h-full bg-white shadow-xl flex flex-col z-30 top-[60px] md:top-0 transition-transform duration-300">
+        class="absolute md:relative transform -translate-x-full md:translate-x-0 w-full md:w-[400px] h-[calc(100%-60px)] md:h-full bg-white shadow-xl flex flex-col z-[2500] top-[60px] md:top-0 transition-transform duration-300 pt-[110px] md:pt-0">
 
         <!-- Sidebar Header (Desktop) -->
         <div
@@ -311,13 +312,14 @@
     </aside>
 
     <!-- Main Content (Map + Filter) -->
-    <main class="flex-1 relative h-full">
+    <main class="flex-1 relative h-full flex flex-col overflow-hidden">
 
         <!-- Filter Bar -->
         <div
-            class="absolute top-4 left-4 right-4 z-[1000] glass-panel p-3 rounded-lg shadow-sm flex flex-col md:flex-row items-center justify-between gap-4 max-w-5xl mx-auto">
+            class="relative z-[3000] w-full bg-white/95 backdrop-blur-md p-3 border-b border-gray-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4 px-4 sticky top-0">
 
-            <div class="flex items-center gap-2" id="filter-buttons">
+            <div class="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0 scrollbar-hide"
+                id="filter-buttons">
                 <!-- Date buttons injected here -->
             </div>
 
@@ -330,18 +332,18 @@
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                 </div>
-                <input type="text" id="keyword-search" placeholder="キーワードで検索 (例: フェリー, 祭り)..."
+                <input type="text" id="keyword-search" placeholder="キーワード (例: 祭り)..."
                     class="block w-full pl-10 pr-3 py-1.5 border border-gray-200 rounded-full text-sm leading-5 bg-gray-50 placeholder-gray-400 focus:outline-none focus:bg-white focus:ring-2 focus:ring-amami-ocean/50 focus:border-amami-ocean transition-all shadow-inner">
             </div>
 
             <div class="flex items-center gap-2 w-full md:w-auto">
                 <select id="location-select"
-                    class="block w-full md:w-40 pl-3 pr-10 py-1.5 text-sm border-gray-300 focus:outline-none focus:ring-amami-ocean focus:border-amami-ocean rounded-md shadow-sm bg-gray-50">
+                    class="block w-1/2 md:w-32 pl-2 pr-8 py-1.5 text-xs md:text-sm border-gray-300 focus:outline-none focus:ring-amami-ocean focus:border-amami-ocean rounded-md shadow-sm bg-gray-50">
                     <!-- Options injected dynamically -->
                 </select>
 
                 <select id="media-source-select"
-                    class="block w-full md:w-48 pl-3 pr-10 py-1.5 text-sm border-gray-300 focus:outline-none focus:ring-amami-ocean focus:border-amami-ocean rounded-md shadow-sm bg-gray-50">
+                    class="block w-1/2 md:w-36 pl-2 pr-8 py-1.5 text-xs md:text-sm border-gray-300 focus:outline-none focus:ring-amami-ocean focus:border-amami-ocean rounded-md shadow-sm bg-gray-50">
                     <option value="all">全てのメディア</option>
                     <!-- Options injected dynamically -->
                 </select>
@@ -349,7 +351,7 @@
         </div>
 
         <!-- Map Container -->
-        <div id="map" class="absolute inset-0 w-full h-full bg-blue-50"></div>
+        <div id="map" class="relative flex-1 w-full h-full bg-blue-50 z-0"></div>
 
     </main>
 
@@ -878,7 +880,8 @@
                 }
 
                 // News Tags
-                const tagsToShow = localNews.slice(0, 5);
+                // Show ALL markers matching the filter, not just top 5
+                const tagsToShow = localNews;
 
                 tagsToShow.forEach((article, index) => {
                     const angle = Math.random() * 2 * Math.PI;
@@ -914,7 +917,8 @@
                             iconAnchor: [20, 30]
                         }),
                         // Higher z-index for newer items (index 0 is newest)
-                        zIndexOffset: 500 + (tagsToShow.length - index)
+                        // Multiplying by 100 to ensure distinct separation
+                        zIndexOffset: 1000 + ((tagsToShow.length - index) * 100)
                     }).addTo(map);
 
                     // Interaction Logic: Click to open URL
@@ -924,12 +928,12 @@
 
                     // Mouseover: bring to front only, no popup
                     tagMarker.on('mouseover', () => {
-                        tagMarker.setZIndexOffset(9999);
+                        tagMarker.setZIndexOffset(99999);
                     });
 
                     tagMarker.on('mouseout', () => {
                         // Reset to original relative order
-                        tagMarker.setZIndexOffset(500 + (tagsToShow.length - index));
+                        tagMarker.setZIndexOffset(1000 + ((tagsToShow.length - index) * 100));
                     });
 
                     // Store for linkage
