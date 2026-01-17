@@ -1018,14 +1018,17 @@
                     });
 
                     // Mouseover: bring to front only, no popup (Desktop behavior mostly)
-                    tagMarker.on('mouseover', () => {
-                        tagMarker.setZIndexOffset(99999);
-                    });
+                    // Disable on Mobile to prevent touch interference
+                    if (!isMobile) {
+                        tagMarker.on('mouseover', () => {
+                            tagMarker.setZIndexOffset(99999);
+                        });
 
-                    tagMarker.on('mouseout', () => {
-                        // Reset to original relative order
-                        tagMarker.setZIndexOffset(1000 + ((tagsToShow.length - index) * 100));
-                    });
+                        tagMarker.on('mouseout', () => {
+                            // Reset to original relative order
+                            tagMarker.setZIndexOffset(1000 + ((tagsToShow.length - index) * 100));
+                        });
+                    }
 
                     // Store for linkage
                     ARTICLE_MARKERS[article.id] = tagMarker;
@@ -1052,7 +1055,8 @@
         };
 
         // Close sidebar when clicking on map (mobile)
-        mapContainer.onclick = () => {
+        // Use Leaflet map click event instead of DOM click to ensure propagation logic works
+        map.on('click', () => {
             if (!sidebar.classList.contains('-translate-x-full') && window.innerWidth < 768) {
                 sidebar.classList.add('-translate-x-full');
             }
@@ -1061,7 +1065,7 @@
                 unhighlightMarker(activeMarkerId);
                 activeMarkerId = null;
             }
-        };
+        });
 
         // Close sidebar when clicking a news item (mobile)
         // We use event delegation on the list container
