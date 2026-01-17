@@ -968,9 +968,12 @@
                                             <span class="text-gray-800 text-sm font-bold leading-snug line-clamp-2 group-hover:line-clamp-none text-left transition-all">
                                                 ${article.title}
                                             </span>
-                                            <span class="text-[10px] text-gray-400 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                                                ${article.source} - ${dateStr}
-                                            </span>
+                                            <div class="flex items-center gap-1 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <img src="${getFavicon(article.source)}" class="w-3 h-3 rounded-sm" alt="">
+                                                <span class="text-[10px] text-gray-400">
+                                                    ${article.source} - ${dateStr}
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -997,17 +1000,18 @@
                             return;
                         }
 
+                        // Mobile: Double-tap Logic
+                        // We check if this specific article is already the active one
                         if (activeMarkerId === article.id) {
-                            // Second tap: Open URL
+                            // Confirmed Second Tap
                             window.open(article.url, '_blank');
-                            // Optional: Reset state after opening?
-                            // unhighlightMarker(activeMarkerId);
-                            // activeMarkerId = null;
                         } else {
-                            // First tap: Select and Expand
+                            // First Tap: Select/Expand
                             if (activeMarkerId) {
+                                // Close previous
                                 unhighlightMarker(activeMarkerId);
                             }
+                            // Set new active
                             activeMarkerId = article.id;
                             highlightMarker(article.id);
                         }
