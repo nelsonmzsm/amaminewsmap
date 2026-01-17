@@ -260,11 +260,15 @@
 <body class="h-screen w-screen overflow-hidden bg-gray-50 flex flex-col md:flex-row text-gray-800">
 
     <!-- Mobile Header -->
-    <header class="md:hidden bg-white shadow-sm p-4 z-[4000] flex justify-between items-center relative h-[60px]">
-        <h1
-            class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight">
-            Amami News Map
-        </h1>
+    <header class="md:hidden bg-white shadow-sm px-4 py-2 z-[4000] flex justify-between items-center relative h-[60px]">
+        <div class="flex flex-col">
+            <h1 onclick="resetFilters()"
+                class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight cursor-pointer hover:opacity-80 transition-opacity">
+                Amami News Map
+            </h1>
+            <div id="mobile-last-updated" class="text-[10px] text-gray-400 font-mono leading-none mt-0.5">Updating...
+            </div>
+        </div>
         <button id="menu-toggle"
             class="p-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -281,7 +285,9 @@
         <!-- Sidebar Header (Desktop) -->
         <div
             class="hidden md:flex flex-col items-start justify-center p-5 border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-10 w-full gap-1">
-            <h1 class="text-2xl font-black text-[#0099c6] tracking-tight whitespace-nowrap">Amami News Map</h1>
+            <h1 onclick="resetFilters()"
+                class="text-2xl font-black text-[#0099c6] tracking-tight whitespace-nowrap cursor-pointer hover:opacity-80 transition-opacity">
+                Amami News Map</h1>
             <div class="text-[10px] text-gray-400 font-mono" id="last-updated">Updating...</div>
         </div>
 
@@ -324,16 +330,31 @@
             </div>
 
             <!-- Search Input -->
-            <div class="flex-1 w-full md:w-auto relative group">
-                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <svg class="h-4 w-4 text-gray-400 group-hover:text-amami-ocean transition-colors" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
+            <div class="flex-1 w-full md:w-auto relative group flex items-center gap-2">
+                <div class="relative flex-1">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <svg class="h-4 w-4 text-gray-400 group-hover:text-amami-ocean transition-colors" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="keyword-search" placeholder="キーワード (例: 祭り)..."
+                        class="block w-full pl-10 pr-3 py-1.5 border border-gray-200 rounded-full text-sm leading-5 bg-gray-50 placeholder-gray-400 focus:outline-none focus:bg-white focus:ring-2 focus:ring-amami-ocean/50 focus:border-amami-ocean transition-all shadow-inner">
                 </div>
-                <input type="text" id="keyword-search" placeholder="キーワード (例: 祭り)..."
-                    class="block w-full pl-10 pr-3 py-1.5 border border-gray-200 rounded-full text-sm leading-5 bg-gray-50 placeholder-gray-400 focus:outline-none focus:bg-white focus:ring-2 focus:ring-amami-ocean/50 focus:border-amami-ocean transition-all shadow-inner">
+                <!-- Reset Button -->
+                <button onclick="resetFilters()"
+                    class="md:hidden p-1.5 text-gray-400 hover:text-red-500 rounded-full hover:bg-red-50 md:ml-1"
+                    title="検索条件をクリア">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+                <button onclick="resetFilters()"
+                    class="hidden md:block px-3 py-1.5 text-xs font-medium text-gray-500 bg-gray-100 hover:bg-gray-200 hover:text-gray-700 rounded-full transition-colors whitespace-nowrap">
+                    条件クリア
+                </button>
             </div>
 
             <div class="flex items-center gap-2 w-full md:w-auto">
@@ -585,6 +606,8 @@
             });
             select.appendChild(muniGroup);
 
+            select.value = currentLocation; // Ensure value persists on re-init
+
             select.onchange = (e) => {
                 const val = e.target.value;
                 currentLocation = val;
@@ -624,10 +647,34 @@
                 }
             });
 
+            select.value = currentMediaSource; // Persist
+
             select.onchange = (e) => {
                 currentMediaSource = e.target.value;
                 updateState();
             };
+        }
+
+        function resetFilters() {
+            // Reset State
+            currentDateRange = '1m';
+            currentLocation = 'all';
+            currentMediaSource = 'all';
+            currentKeyword = '';
+            customStartDate = null;
+            customEndDate = null;
+
+            // Reset UI Inputs
+            document.getElementById('keyword-search').value = '';
+            document.getElementById('location-select').value = 'all';
+            document.getElementById('media-source-select').value = 'all';
+
+            // Reset Map View
+            map.flyTo([28.2, 129.5], 9);
+
+            // Re-init UI helpers and Update
+            initFilterUI();
+            updateState();
         }
 
         function updateState() {
@@ -645,12 +692,24 @@
             let lastSchedule = yesterday17;
             if (now >= today17) lastSchedule = today17;
             else if (now >= today11) lastSchedule = today11;
-            else if (now >= today7) lastSchedule = today7;
+            else if (now >= today7) lastSchedule = today7; // Fix: was today11 in prev code if condition logic was weak
+
+            // Stronger logic for schedule
+            if (now.getHours() >= 17) lastSchedule = today17;
+            else if (now.getHours() >= 11) lastSchedule = today11;
+            else if (now.getHours() >= 7) lastSchedule = today7;
+            // else defaults to yesterday17
 
             const dateStr = lastSchedule.toLocaleDateString('ja-JP');
             const timeStr = lastSchedule.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
 
-            document.getElementById('last-updated').textContent = `Updated: ${dateStr} ${timeStr}`;
+            const updateText = `Updated: ${dateStr} ${timeStr}`;
+            document.getElementById('last-updated').textContent = updateText;
+
+            // Mobile Update Text
+            const mobileEl = document.getElementById('mobile-last-updated');
+            if (mobileEl) mobileEl.textContent = updateText;
+
             document.getElementById('article-count').textContent = filtered.length;
         }
 
