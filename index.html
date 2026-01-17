@@ -285,32 +285,34 @@
     <!-- Mobile Header -->
     <header class="md:hidden bg-white shadow-sm px-4 py-2 z-[4000] flex justify-between items-center relative h-[60px]">
         <div class="flex flex-col">
-            <div class="flex items-center gap-2">
-                <h1 onclick="window.location.reload()"
-                    class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight cursor-pointer hover:opacity-80 transition-opacity">
-                    Amami News Map
-                </h1>
-                <!-- Mobile Translate Button -->
-                <button onclick="toggleLangModal()" class="text-gray-400 hover:text-amami-ocean">
-                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
-                        </path>
-                    </svg>
-                </button>
-            </div>
+            <h1 onclick="window.location.reload()"
+                class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#0099c6] to-[#00d2ff] tracking-tight cursor-pointer hover:opacity-80 transition-opacity">
+                Amami News Map
+            </h1>
             <div class="flex items-center gap-2 mt-0.5">
                 <span id="mobile-last-updated"
                     class="text-[10px] text-gray-400 font-mono leading-none">Updating...</span>
             </div>
         </div>
-        <button id="menu-toggle"
-            class="p-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-                </path>
-            </svg>
-        </button>
+
+        <div class="flex items-center gap-2">
+            <!-- Mobile Translate Button -->
+            <button onclick="toggleLangModal()"
+                class="md:hidden p-2 text-gray-500 hover:text-amami-ocean rounded-lg bg-gray-50">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                    </path>
+                </svg>
+            </button>
+            <button id="menu-toggle"
+                class="p-2 rounded-lg bg-gray-100 text-gray-600 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
     </header>
 
     <!-- Sidebar (News List) -->
@@ -320,10 +322,11 @@
         <!-- Sidebar Header (Desktop) -->
         <div
             class="hidden md:flex flex-col items-start justify-center p-5 border-b border-gray-100 bg-white/80 backdrop-blur-sm sticky top-0 z-10 w-full gap-1">
-            <div class="flex items-center justify-start w-full gap-2">
+            <div class="flex items-center justify-between w-full">
                 <h1 onclick="window.location.reload()"
                     class="text-2xl font-black text-[#0099c6] tracking-tight whitespace-nowrap cursor-pointer hover:opacity-80 transition-opacity">
-                    Amami News Map</h1>
+                    Amami News Map
+                </h1>
                 <!-- Desktop Translate Button -->
                 <button onclick="toggleLangModal()" class="text-gray-400 hover:text-amami-ocean transition-colors"
                     title="言語を変更 / Select Language">
