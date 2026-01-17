@@ -114,6 +114,7 @@ def fetch_feed(target_query):
         return None
 
 @app.route('/api/news')
+@requires_auth
 def get_news():
     all_articles = []
     seen_urls = set()
@@ -217,10 +218,12 @@ def get_news():
     return jsonify(all_articles)
 
 @app.route('/news_data/<path:filename>')
+@requires_auth
 def serve_news_data(filename):
     return send_from_directory('news_data', filename)
 
 @app.route('/favicon.png')
+@requires_auth
 def serve_favicon():
     return send_from_directory('.', 'favicon.png')
 
