@@ -426,6 +426,7 @@
 
         let ALL_NEWS = [];
         let ARTICLE_MARKERS = {}; // Map article ID to Leaflet marker
+        let activeMarkerId = null; // Track currently expanded marker
 
         async function fetchNews() {
             console.log("Fetching news from static storage...");
@@ -980,12 +981,27 @@
                         zIndexOffset: 1000 + ((tagsToShow.length - index) * 100)
                     }).addTo(map);
 
-                    // Interaction Logic: Click to open URL
-                    tagMarker.on('click', () => {
-                        window.open(article.url, '_blank');
+                    // Interaction Logic: Double-tap (Expand -> Open)
+                    tagMarker.on('click', (e) => {
+                        L.DomEvent.stopPropagation(e); // Prevent map click from firing
+
+                        if (activeMarkerId === article.id) {
+                            // Second tap: Open URL
+                            window.open(article.url, '_blank');
+                            // Optional: Reset state after opening?
+                            // unhighlightMarker(activeMarkerId);
+                            // activeMarkerId = null;
+                        } else {
+                            // First tap: Select and Expand
+                            if (activeMarkerId) {
+                                unhighlightMarker(activeMarkerId);
+                            }
+                            activeMarkerId = article.id;
+                            highlightMarker(article.id);
+                        }
                     });
 
-                    // Mouseover: bring to front only, no popup
+                    // Mouseover: bring to front only, no popup (Desktop behavior mostly)
                     tagMarker.on('mouseover', () => {
                         tagMarker.setZIndexOffset(99999);
                     });
@@ -1024,16 +1040,23 @@
             if (!sidebar.classList.contains('-translate-x-full') && window.innerWidth < 768) {
                 sidebar.classList.add('-translate-x-full');
             }
+            // Clear active marker selection on map click
+            if (activeMarkerId) {
+                unhighlightMarker(activeMarkerId);
+                activeMarkerId = null;
+            }
         };
 
         // Close sidebar when clicking a news item (mobile)
         // We use event delegation on the list container
+        // Close sidebar when clicking a news item (mobile)
+        // We use event delegation on the list container
         document.getElementById('sidebar-list').addEventListener('click', (e) => {
             // Check if it was a link or bubble click
-            if (window.innerWidth < 768) {
-                // Allow a small delay for visual feedback if needed, but close it
-                sidebar.classList.add('-translate-x-full');
-            }
+            // REMOVED: Do NOT close sidebar after click, so user can return to list
+            // if (window.innerWidth < 768) {
+            //     sidebar.classList.add('-translate-x-full');
+            // }
         });
 
         // Init Filter UI with defaults
