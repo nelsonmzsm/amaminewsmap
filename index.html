@@ -851,6 +851,14 @@
 
                 listContainer.appendChild(item);
             });
+
+            // Restore scroll position if pending
+            if (window.pendingScrollTop !== undefined) {
+                setTimeout(() => {
+                    listContainer.scrollTop = window.pendingScrollTop;
+                    window.pendingScrollTop = undefined;
+                }, 50);
+            }
         }
 
         function highlightMarker(articleId) {
