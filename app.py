@@ -13,6 +13,38 @@ import concurrent.futures
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
+# Basic Auth Configuration
+import os
+from functools import wraps
+from flask import request, Response
+
+def check_auth(username, password):
+    """This function is called to check if a username /
+    password combination is valid."""
+    env_user = os.environ.get('BASIC_AUTH_USER')
+    env_pass = os.environ.get('BASIC_AUTH_PASSWORD')
+    return username == env_user and password == env_pass
+
+def authenticate():
+    """Sends a 401 response that enables basic auth"""
+    return Response(
+    'Could not verify your access level for that URL.\n'
+    'You have to login with proper credentials', 401,
+    {'WWW-Authenticate': 'Basic realm="Login Required"'})
+
+def requires_auth(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        # Only require auth if env vars are set
+        if not os.environ.get('BASIC_AUTH_USER'):
+            return f(*args, **kwargs)
+            
+        auth = request.authorization
+        if not auth or not check_auth(auth.username, auth.password):
+            return authenticate()
+        return f(*args, **kwargs)
+    return decorated
+
 # SSL fix
 if hasattr(ssl, '_create_unverified_context'):
     ssl._create_default_https_context = ssl._create_unverified_context
@@ -193,6 +225,7 @@ def serve_favicon():
     return send_from_directory('.', 'favicon.png')
 
 @app.route('/')
+@requires_auth
 def index():
     return send_from_directory('.', 'index.html')
 
