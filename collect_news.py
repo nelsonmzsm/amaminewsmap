@@ -102,9 +102,16 @@ def collect_news():
                     title = entry.title
                     if any(k in title for k in BLOCK_KEYWORDS): continue
                     
-                    source_name = "Google News"
                     if 'source' in entry and 'title' in entry.source:
                         source_name = entry.source.title
+                    
+                    # Fix: Map domain names to Japanese names if necessary
+                    if source_name not in ALLOWED_SOURCE_NAMES:
+                        for domain, jp_name in ALLOWED_SOURCES.items():
+                            if domain in source_name:
+                                source_name = jp_name
+                                break
+                    
                     if source_name == '琉球新報デジタル': source_name = '琉球新報'
                     if source_name not in ALLOWED_SOURCE_NAMES: continue
                     
