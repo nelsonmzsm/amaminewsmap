@@ -77,6 +77,17 @@
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PQnhweTJsSTVTdm8tQlNFX3FIZ1lvOWJwS202LTltRDNtNUt1LVRfUHR1eF84ZmxyUjBUX29TY2k5Rk4yOGtNNTRHRk81U1BpNnA3RFdHNEo?oc=5"
   },
   {
+    "id": "CBMiV0FVX3lxTE52eU9FWHNjTzdGRFAwYTRjTWtNNHJFT09EVWJqYWtwTkt3NVdLdjNCWVhSNU42QnFBNGYzSFdtcmNENkprWkJ1NWMyd3l4Tl8wWVZVcXNSbw",
+    "municipalityId": "setouchi",
+    "MunicipalityName": "瀬戸内町",
+    "date": "2026-02-08T10:52:00",
+    "title": "【写真】震源は奄美大島近海…瀬戸内町などで震度1 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE52eU9FWHNjTzdGRFAwYTRjTWtNNHJFT09EVWJqYW...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=瀬戸",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52eU9FWHNjTzdGRFAwYTRjTWtNNHJFT09EVWJqYWtwTkt3NVdLdjNCWVhSNU42QnFBNGYzSFdtcmNENkprWkJ1NWMyd3l4Tl8wWVZVcXNSbw?oc=5"
+  },
+  {
     "id": "CBMiWEFVX3lxTE5qZmdfOEctMFgzNFNkV3VxNWpjSF9pYy1jYWNKdUJmNnFXMEh4UkdPenZpeWZBS0tDcnNQRU5LNjdfS1JSV3dXUWZVODI1Y21mR25QbXdITFU",
     "municipalityId": "yoron",
     "MunicipalityName": "与論町",
@@ -97,6 +108,28 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=与論",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZMVZNckNaaDRfdklWX25pR1UtUGIzdUVhaDBuOGY5VF80c2N3cXV5Q2l0Z1lmZFlVSVR1dlNNWkRWazh4d3Z6alhBLVRiU1NZWWV3ZXowYw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE5VajhiOUo0VGMyYnR3V1Vsa2tOenphaDdrTnY3dHRqemhPVm9SdUZwM09mX2puQ210RXc4X0ZjWjlTc2xncXdmWVlRenJVd2V5VEJVVmd6aw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-02-08T10:45:22",
+    "title": "亀津中「管打三重奏」全日本大会へ - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VajhiOUo0VGMyYnR3V1Vsa2tOenphaDdrTnY3dH...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VajhiOUo0VGMyYnR3V1Vsa2tOenphaDdrTnY3dHRqemhPVm9SdUZwM09mX2puQ210RXc4X0ZjWjlTc2xncXdmWVlRenJVd2V5VEJVVmd6aw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE9oMHFsZ21ZemdBckxlaEJMU3p2TWRzeEI2OFlETW1IQ2pwZTh1X3pXZFNRd1hZUExFeTg4bHVkOXJTQnpFNG9kWktxU0ZSUllHekpJUmZYdw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-02-08T10:00:05",
+    "title": "美しい海浜環境を守ろう！ - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMHFsZ21ZemdBckxlaEJMU3p2TWRzeEI2OFlETW...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMHFsZ21ZemdBckxlaEJMU3p2TWRzeEI2OFlETW1IQ2pwZTh1X3pXZFNRd1hZUExFeTg4bHVkOXJTQnpFNG9kWktxU0ZSUllHekpJUmZYdw?oc=5"
   },
   {
     "id": "CBMigAFBVV95cUxNbkp3X3RoV19MOXJ1RXIwaDBuczE3cm1xWXV5TG1LWTcyVlNQZDhQREdCVFRqcFliRlBTREV1WV9MMmtPVVFQV0NGSXREZHRHc1Q4S0RwbndmckJGRzJOYUZmT05UdmkyT3dHQ19QdHc5ZVgtSkw4ZUkzNHFsNm1vRA",
@@ -1626,6 +1659,17 @@
     "source": "奄美新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=和泊",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VVEdFQ0o0STMzbS1zd0REbWtCbndvbmg2UXB4NERJOGFkcHBVbHZjNWxOb2VETVM2aUZWM0JYd0Rsdk1Qd2MwaG1YM0hyY2FSS19WOTdZZw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE0yWmpDeDRpMUJYeVVETnFZaXFEcVlqMHJ1OFRqX1dyUzFESktwajgyeGt1T2dSSzFiRlRnWmVoS1B4bzdhT0hfVUFpTDkwczAwTnJhc2FsNA",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-01-26T08:00:00",
+    "title": "愛称は「わいど～む あまぎ」 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE0yWmpDeDRpMUJYeVVETnFZaXFEcVlqMHJ1OFRqX1...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0yWmpDeDRpMUJYeVVETnFZaXFEcVlqMHJ1OFRqX1dyUzFESktwajgyeGt1T2dSSzFiRlRnWmVoS1B4bzdhT0hfVUFpTDkwczAwTnJhc2FsNA?oc=5"
   },
   {
     "id": "CBMigAFBVV95cUxPSy13bHZtYUw2N0VORzY4alplMWxGbTVMS3lZTUpGY1JJa0Y5elBGb2hJeEp3NnllQk90VHpjSVdhQ3FxdW9aYWQ5MzRSWjgyanI3R0Q5SDI2OG1vanl1aGdwYUN1N3Z2OWw4UGRjWS04VDB0UFA4QzdOTzFtRGx5dg",
