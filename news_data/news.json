@@ -88,6 +88,17 @@
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91TE1LcmhQcTJkaWJzSEFhY294aEpOWEZ1c2lvbXF0RDgzbUIxY0dSTTE4ZERLcW9hSUpjWlg1c1YyRy1WLXZyZ2NqVDhjbjRLeG5QMkJyQQ?oc=5"
   },
   {
+    "id": "CBMiVkFVX3lxTE9CUEM2WU92cTV5U1NFVDhJSThoTldjT1lGMU4ycVgzUDUxbzhQdUJpbi1GSTZhOURUZV9FbThLRmxVc2ZBNXlDR3laNUxUWXQ2WTZOWWJ3",
+    "municipalityId": "wadomari",
+    "MunicipalityName": "和泊町",
+    "date": "2026-02-14T12:03:00",
+    "title": "【写真】死因は出血性ショック…首に長さ12センチ、深さ3センチなどの切り傷が複数――和泊町の37歳男性死亡 沖永良部署 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CUEM2WU92cTV5U1NFVDhJSThoTldjT1lGMU4ycV...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=和泊",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CUEM2WU92cTV5U1NFVDhJSThoTldjT1lGMU4ycVgzUDUxbzhQdUJpbi1GSTZhOURUZV9FbThLRmxVc2ZBNXlDR3laNUxUWXQ2WTZOWWJ3?oc=5"
+  },
+  {
     "id": "CBMiWEFVX3lxTE5yWjRfM3JNWE04YXNHdmN1S1BXVTFXWHAtTVdZbjdUWXk5LXM0QkxSZTJrb2I2Rk9WUjBta1VMNWFjV3A3YUw0RDZIaUlXUE5hUnUtMXZPQlU",
     "municipalityId": "yamato",
     "MunicipalityName": "大和村",
@@ -2033,6 +2044,17 @@
     "source": "奄美新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfTDFTSE5yX21wbFp0OFN0TjA5NFlYSnN0ZEZGby1vUVFmSllYNnFqY2dTLVh4bzROc3ZublF3SXd2ZDFZdzVFYmsyYnFObUxQV0QwRXRHZw?oc=5"
+  },
+  {
+    "id": "CBMi1wJBVV95cUxQRlJIdk54VURpTDJUd281ZXRSelNpQzVOY2FaekZQWnBoNzJPOVJ1LVFhUjAxYWhUZl9wQzBveHdCdFR0MS0zWHF6RUxzSmtoejltS1ZJaE5CcVAwRmVEU2FXT0ZwQzI0VndIYTNnNlVZR2hITV9XYzh6YXRzek81ZkxTZE1ORDJ5U3ZCSWVTNnh5RXZ1YXNWdUxWQWpWVklRV0NqUHBvb19fTHJXRENLSzV5bjVGMTRnZ0hINUtXd0VuQk5IcXVvT3NFSUJqX1M4RlNXQWdqVzdlTEFEencyallhMDcyOHN5U2VaNzB1X3g2emJBY1J0WDJ3NnpkRFdrNy00akpxRlBnS2xOMk5CR1BSNVZqYy14Q0o3X2x2MzhmS1hQUVBVY0xwQndGWUQtaWc1Ujl2a3BMbXlhLWsySXVRRGJWRnFic1RnRTVIV1M3MmtSMTZn",
+    "municipalityId": "tatsugo",
+    "MunicipalityName": "龍郷町",
+    "date": "2026-01-28T08:00:00",
+    "title": "懐かしい昭和歌謡で魅了 奄美パークで「キットハレ芸能祭」 龍郷町懐メロ同好会｜芸能・文化 - nankainn.com",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi1wJBVV95cUxQRlJIdk54VURpTDJUd281ZXRSelNpQzVOY2Faek...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=龍郷",
+    "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQRlJIdk54VURpTDJUd281ZXRSelNpQzVOY2FaekZQWnBoNzJPOVJ1LVFhUjAxYWhUZl9wQzBveHdCdFR0MS0zWHF6RUxzSmtoejltS1ZJaE5CcVAwRmVEU2FXT0ZwQzI0VndIYTNnNlVZR2hITV9XYzh6YXRzek81ZkxTZE1ORDJ5U3ZCSWVTNnh5RXZ1YXNWdUxWQWpWVklRV0NqUHBvb19fTHJXRENLSzV5bjVGMTRnZ0hINUtXd0VuQk5IcXVvT3NFSUJqX1M4RlNXQWdqVzdlTEFEencyallhMDcyOHN5U2VaNzB1X3g2emJBY1J0WDJ3NnpkRFdrNy00akpxRlBnS2xOMk5CR1BSNVZqYy14Q0o3X2x2MzhmS1hQUVBVY0xwQndGWUQtaWc1Ujl2a3BMbXlhLWsySXVRRGJWRnFic1RnRTVIV1M3MmtSMTZn?oc=5"
   },
   {
     "id": "CBMiW0FVX3lxTE90UG1vc2VDZjcwQkJwWGRLNVdweF9ZQzduNTFCUjh5cDM2OHBXeTdwbFFmYk5GQTFmbVE3ZzBrbW5fRmIzR25Vb3N1cHJ6Y3l5YTMxTTVic01yY0U",
