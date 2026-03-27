@@ -1,5 +1,16 @@
 [
   {
+    "id": "CBMiWEFVX3lxTFBMVDNiRjlHbGdjTnZLNHVRMnVQUmJUOGxRdWNUdG9ZN3U5dE9NUkFBbERDekg3SzJNOWt6Ump3Tmo0OFkwMDRqMktISkplYVlGZUR0Smd0Vl8",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-03-26T23:30:00",
+    "title": "宇検の琉球朱印状が重要文化財へ 奄美が琉球の一部だった歴史を証明 文化審議会が答申――県内の古文書指定は2件目 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMVDNiRjlHbGdjTnZLNHVRMnVQUmJUOGxRdWNUdG...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMVDNiRjlHbGdjTnZLNHVRMnVQUmJUOGxRdWNUdG9ZN3U5dE9NUkFBbERDekg3SzJNOWt6Ump3Tmo0OFkwMDRqMktISkplYVlGZUR0Smd0Vl8?oc=5"
+  },
+  {
     "id": "CBMi1wJBVV95cUxNcEtZMU5fRVJOUlFIQllQbXFjRE9kZVh5WkZmckFUSmlFY204cWFVYlRtUE9wanRNU25tQzJJcThHQnZDQ2c2a3hSYlBnSEdySW9pZk9SSXRYUVp2LXVLZXgwWVhvQkRYRkVOWXR5UmRjclBONUN1dkxIa3BURDZCSEtuQ2FZekJOMEtQT25hVGc3QTJJMmV3SEV1Slprc2x0RXI3eXRycW91UUJIcXJsclVlcy1KT2dXaDZtdDV2S1BtTlhINnI1bjdfLWxCMlkxV0dOYVEtT1hydnpIeDVyX09PdncwU1NyRnhxX1VkeElaUWVrMUxVeUl6RmRyZDhlOUViTE9SLTBZZ2t2eGRqeDVnTExJVWhsUGlqZnM4QVgzRmRkS2JWc1lGVVd4aHo3Um9NTXAxVTEzVHI2TlV3cUlVakg1anpJSnpaUmRhNktFc2txVUNV",
     "municipalityId": "uken",
     "MunicipalityName": "宇検村",
@@ -9403,6 +9414,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=知名",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1mc1Y1R3ltUEM5TlBTQ1RGSzRPRU1JTlpOanFCX1FHckFTTzlnenRPU2FXWm5TZXlnanJsbkQ4cnJQLUNfU3FSMUowYndWMmpTYm1zZ0pUOA?oc=5"
+  },
+  {
+    "id": "CBMi1AJBVV95cUxQdDkyMHZaTUt4bUFVZGEzcG03WkFHU2djS3FVV1g3ekN6WjN2Uk5jdTBkcDk2aDJTRlhQQWVSTVlMYnBtb2xsSXhqellZbWtXalU5Wm1VSjNrbmVOQXZtakwybkxlTjJSN25OUW9vbjk5VFplM3dXQlFLMVEyS3BOcVJZN0pWSFZJUnBxS2RJdzEzYVZ6WUxpY1RLMmUzNzVSbFdEeFBpMHYwcFNfYnl2Qml1b18tajFmOUFFd25HR21MdVFLVG1xTkJiNmNlbDRmMVRKVkFkdjlXYjFXemNBSWx2UkV3OGdGUHZPdklRRzRnMTFxMko4M3dwRzctVzN1VkMzc0xTU3EwNkRfN3drRUpmUnUwcWJpOXVldUg1UVNGRzRyZEtoYU1nLXVQa1RHYjZmdFUzZ1htSFo0ME5YY0JrbHUzWmhkUFVDWmo5bHhSdUxM",
+    "municipalityId": "amagi",
+    "MunicipalityName": "天城町",
+    "date": "2025-12-06T08:00:00",
+    "title": "松原浄水場が完成 急速ろ過方式を導入、安定供給へ 天城町・松原｜地域 - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi1AJBVV95cUxQdDkyMHZaTUt4bUFVZGEzcG03WkFHU2djS3FVV1...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=天城",
+    "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQdDkyMHZaTUt4bUFVZGEzcG03WkFHU2djS3FVV1g3ekN6WjN2Uk5jdTBkcDk2aDJTRlhQQWVSTVlMYnBtb2xsSXhqellZbWtXalU5Wm1VSjNrbmVOQXZtakwybkxlTjJSN25OUW9vbjk5VFplM3dXQlFLMVEyS3BOcVJZN0pWSFZJUnBxS2RJdzEzYVZ6WUxpY1RLMmUzNzVSbFdEeFBpMHYwcFNfYnl2Qml1b18tajFmOUFFd25HR21MdVFLVG1xTkJiNmNlbDRmMVRKVkFkdjlXYjFXemNBSWx2UkV3OGdGUHZPdklRRzRnMTFxMko4M3dwRzctVzN1VkMzc0xTU3EwNkRfN3drRUpmUnUwcWJpOXVldUg1UVNGRzRyZEtoYU1nLXVQa1RHYjZmdFUzZ1htSFo0ME5YY0JrbHUzWmhkUFVDWmo5bHhSdUxM?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE1GU1U0ZVFvaXdhdWtpNjdsd2pfT1VjcXYzY2liZGVQREpacGpXRmtyV2wtbW5JdWlGSk1vQmVZeW9TaXBNVGdZQTBoNWs0T3BxRE1iUzNrZw",
