@@ -1,5 +1,49 @@
 [
   {
+    "id": "CBMiWEFVX3lxTE1nbmpaVFE2QWdKLW12WEhxSzJTNkRGY0VnMXZYZU5CZlphYV94VHpjaC11eDIwZHFHOHpmckFwOE5fOUQtVTlDWm9GWjRhcTB3Qko3ZDgyaFg",
+    "municipalityId": "isen",
+    "MunicipalityName": "伊仙町",
+    "date": "2026-04-09T12:10:00",
+    "title": "鹿児島県伊仙町の突風「竜巻の可能性高い」――最大瞬間風速推定50メートル - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbmpaVFE2QWdKLW12WEhxSzJTNkRGY0VnMXZYZU...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=伊仙",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbmpaVFE2QWdKLW12WEhxSzJTNkRGY0VnMXZYZU5CZlphYV94VHpjaC11eDIwZHFHOHpmckFwOE5fOUQtVTlDWm9GWjRhcTB3Qko3ZDgyaFg?oc=5"
+  },
+  {
+    "id": "CBMiWEFVX3lxTE5wSm85WEVvaU9WRHBPVzJYOXh4aDBDemloM1lqT2RsdmZGMVNlcUpGcFJyMk5PUGQyakV2d3hQN3lTaE9PVk1KWVVjTDlxMlJYLTFIemllckc",
+    "municipalityId": "uke_jima",
+    "MunicipalityName": "請島",
+    "date": "2026-04-09T09:51:00",
+    "title": "奄美大島と請島・与路島を結ぶ定期船、車両が運べなくなった――新船に「車両積載禁止」の条件 1カ月に10台利用、再開めど立たず - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wSm85WEVvaU9WRHBPVzJYOXh4aDBDemloM1lqT2...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=請島",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wSm85WEVvaU9WRHBPVzJYOXh4aDBDemloM1lqT2RsdmZGMVNlcUpGcFJyMk5PUGQyakV2d3hQN3lTaE9PVk1KWVVjTDlxMlJYLTFIemllckc?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE1vNFZQekVnZUR6dVExaVRzZENqU1llYmhxSGIxS1hvSE9lTGx1Q0tNSXdnUHFnMl9QT1JCQndXNTRiMkNOR1ZRLUZrcHA0UFV6eEc4SXhKQQ",
+    "municipalityId": "uke_jima",
+    "MunicipalityName": "請島",
+    "date": "2026-04-09T09:51:00",
+    "title": "【写真】奄美大島と請島・与路島を結ぶ定期船、車両が運べなくなった――新船に「車両積載禁止」の条件 1カ月に10台利用、再開めど立たず - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vNFZQekVnZUR6dVExaVRzZENqU1llYmhxSGIxS1...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=請島",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vNFZQekVnZUR6dVExaVRzZENqU1llYmhxSGIxS1hvSE9lTGx1Q0tNSXdnUHFnMl9QT1JCQndXNTRiMkNOR1ZRLUZrcHA0UFV6eEc4SXhKQQ?oc=5"
+  },
+  {
+    "id": "CBMiVkFVX3lxTE5jb1BzZkRCeVNfTFRDQnJOWDhGaUNWdTAzTUJQdDBQeDFBLTFWc1QwX2F0Q0ZHa1BDdEQ4bW96cEV6bWtBZnBNQ1VMaDVfdkxMM0dTaWR3",
+    "municipalityId": "uke_jima",
+    "MunicipalityName": "請島",
+    "date": "2026-04-09T09:51:00",
+    "title": "【写真】奄美大島と請島・与路島を結ぶ定期船、車両が運べなくなった――新船に「車両積載禁止」の条件 1カ月に10台利用、再開めど立たず - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jb1BzZkRCeVNfTFRDQnJOWDhGaUNWdTAzTUJQdD...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=請島",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jb1BzZkRCeVNfTFRDQnJOWDhGaUNWdTAzTUJQdDBQeDFBLTFWc1QwX2F0Q0ZHa1BDdEQ4bW96cEV6bWtBZnBNQ1VMaDVfdkxMM0dTaWR3?oc=5"
+  },
+  {
     "id": "CBMi1AJBVV95cUxOenc3N0FJM0IwVEs5cjV5aWVoZVMyci1RRkFYOG94cFZNLW94Mk1QR0ltX2FNQldtYlRGSmJsa2dxVThaUGF4QTNiMzR1bEtwWnBXbmtkZ2ZWcVBHdzE3a2xzMUlFOGxEZThTc3JNZ0lqckstNFpSNmRWVFZkdXA5a3VnLWI2cjdaUWxPMkZTdGYyWGgxNTRWX1pnclpGQk9vWkF5ZC1hNkxpRktHV0xLQm5CdFhPdmpDaG5QSm5UN3BJWDR6cC1BaWJrN28zMW45VmFOYWs2akEzOVI0bnBVOGJyTS1oRS1qRU0yZnJQUHhfVHJTUFkxZTBmYk1WQ3ZOWldrMC12Q2wtT1V2WXlkMUxJbUk2cEpvOXd3dmtjZzJiRnhkdGladHB5RWhTb01UVUFycDBzTGQzemk2QlhDUEJ6WjlXcEFhaGozWGZnUmNnb0U4",
     "municipalityId": "amami_oshima",
     "MunicipalityName": "奄美大島",
