@@ -1,5 +1,16 @@
 [
   {
+    "id": "CBMiYEFVX3lxTE10eXJZZm15YnMtbzBYaWJTMnlqLTh5clR6YzJYVnZ6WE1Ca0NGVFBHVmFiUDZWQVNJbG9IMXNGSUJxZk5uMTFkMW94d1FlTVBuYWcya3h4MDhkOVBybDY5QQ",
+    "municipalityId": "okino_erabu",
+    "MunicipalityName": "沖永良部島",
+    "date": "2026-05-18T00:49:56",
+    "title": "沖永良部島の居酒屋店主所有の白黒写真を彩色 60年前の島と両親の姿蘇る - 奄美群島南三島経済新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE10eXJZZm15YnMtbzBYaWJTMnlqLTh5clR6YzJYVn...",
+    "source": "奄美群島南三島経済新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=沖永",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE10eXJZZm15YnMtbzBYaWJTMnlqLTh5clR6YzJYVnZ6WE1Ca0NGVFBHVmFiUDZWQVNJbG9IMXNGSUJxZk5uMTFkMW94d1FlTVBuYWcya3h4MDhkOVBybDY5QQ?oc=5"
+  },
+  {
     "id": "CBMi2gJBVV95cUxOYk50NnJVR3NNODhLOGJhekhFeUtGaHNqMFJYUXZxeVpyZG00TDdLNnZfazBCdW1tNW1xb0hsd0VpanR2NjdtUm5iSkdRVlVZYThGU2FPT2pwX2NqQ1ZKb0dQQXM2cndLOUo0NGNPa1p0Zlh0Mk03ODc2dmFUWHdNemJFOW1fdC1DemNnaEk1U0stV1l1UkpZbWcyeXFHVm9xRXRNNk42eWJQRHA1Ylh0dDFPWExKVl9RVUZBSnNDUVhHbXZWdEhyWGNFeHkxZ2ZpMzdfOWM2XzZyV0MtWUNaN3d4eGxHemNScndEc1YyZlRoUmMtZHlEaU50amM3ZVpmTWtOQXMtR0dyczNscS1ld01rT2VJb25pTVMwaG1MN3Q1cEdVWEVfQ0FrQzZxZUZzNjZ5LXBKVnlzZWVQS2RjRHMwVlZMMnBIcEkzTDBERHYzRUdDc3B1amF3",
     "municipalityId": "amami",
     "MunicipalityName": "奄美市",
@@ -1219,6 +1230,17 @@
     "source": "奄美新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=知名",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmNl9nVVM4UnJqUGxTT2RsZ0NXeWY1YWpBT1BBSHZhNWJrd0VsT25VNUM5d3dNR3VHRnBiX0I3Z3lxc3FsQU1lVVZRMVZja1Z1bVJ1RGg3OA?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE5mR3dYS29Ydk0xWW50TG5kTzJLeDU2UVdaNnZ3T2pSRjhqNXhRMUhjVlRtWDM3MDdZU29TUEg1ankwX2NFMkRtUENSc3k2dDlJazRDVlBUcw",
+    "municipalityId": "tokuno_shima",
+    "MunicipalityName": "徳之島",
+    "date": "2026-04-29T07:00:00",
+    "title": "ＧＷ初日、徳之島３町で海開き - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mR3dYS29Ydk0xWW50TG5kTzJLeDU2UVdaNnZ3T2...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mR3dYS29Ydk0xWW50TG5kTzJLeDU2UVdaNnZ3T2pSRjhqNXhRMUhjVlRtWDM3MDdZU29TUEg1ankwX2NFMkRtUENSc3k2dDlJazRDVlBUcw?oc=5"
   },
   {
     "id": "CBMiWEFVX3lxTE1DYXM2dUZGT1lzbkpzRU93LVBCdUhTX280eWxZM0pfQ2hPNXlhMTZCak1pcFRLcmtRUW1QSnZwaGQ0T0xJeUVuTExHWFFnVTBQN3N2NGROTXU",
@@ -9854,6 +9876,17 @@
     "source": "南海日日新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNSVB3OERNZXRENXpaR1gzdjFCbm8zN2MxSGVzM0xiZVRrWjRJUFlxSnNObjhpZEtaTGZOUkxwLTZNWjlRQVNHbUVVWldweUNSYnJsY1FnQ3FTYnlvWDFJMDkxMzlwX25MV0ZXdU5ZV0MxOEtZM3NvYmZSWjJFVHB5eWlvdW52dmY0bFlKRUVfOU1felFjWDVBTmJ6RkNDN0tlaE1XLWVKeEhWaEJmVFFOYUd4U3ZHVVJpbVZrMzJZTzRLRk1TYmh5a3VoU2RkOURrbW5WRWF5bmkzRlB2M0k3cHR5MHF5c0ZrUkY5NjFtVFhBUzZZS2RsUkhkQ1RBaEZMTXprdG10NkJZQ2tYOEFGaFAyaThoX0ZERG5LQ3NKQTJnY21BQ0pCLXQyTWpQV005UEhmcVFPTUNYTC1WMjNyVTlPV0xzampiT1drWU5wajFlV0ZlbW50Qk9n?oc=5"
+  },
+  {
+    "id": "CBMibEFVX3lxTE1kZGlfbmJPYUJtdmdhN2xsS3EwNjJOQXpvUUcyQ3ExOVozTEpMUmpFTUZfZ1UtTTdXWDV1Ty1rUjM1dlVKemVNQzhhOXlXcV9nN1Njc1hCdExkUklwUnEzck9EWkxCTUVfc3psVw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-01-30T08:00:00",
+    "title": "「春の訪れに癒やされた」…ヒカンザクラを眺めながら奄美大島の森林公園をウオーキング - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1kZGlfbmJPYUJtdmdhN2xsS3EwNjJOQXpvUUcyQ3...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kZGlfbmJPYUJtdmdhN2xsS3EwNjJOQXpvUUcyQ3ExOVozTEpMUmpFTUZfZ1UtTTdXWDV1Ty1rUjM1dlVKemVNQzhhOXlXcV9nN1Njc1hCdExkUklwUnEzck9EWkxCTUVfc3psVw?oc=5"
   },
   {
     "id": "CBMiWEFVX3lxTE9LVWNhWm9qb1VXSjEyOGRydGRxRlhXS1Npbko4VjhYSENzeE5YN055NlQwbk9jQWpkbDRQTU5odmJVRllPQU1zV2s3ZGdmM0M0dmkzZms2bl8",
