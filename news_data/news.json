@@ -1,5 +1,38 @@
 [
   {
+    "id": "CBMiV0FVX3lxTE1Fd2p3QUFkMl9fMUNlZm1sd2N5ajFKTEpEQ3hhczBiX0hKeDNhZ0pKVWlGOVBQNzJ0NURydTRKcGhabVdwRG5ydXRnNFJjNG55bFp0ZDgzdw",
+    "municipalityId": "china",
+    "MunicipalityName": "知名町",
+    "date": "2026-05-31T02:21:00",
+    "title": "知名町で震度3 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Fd2p3QUFkMl9fMUNlZm1sd2N5ajFKTEpEQ3hhcz...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=知名",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Fd2p3QUFkMl9fMUNlZm1sd2N5ajFKTEpEQ3hhczBiX0hKeDNhZ0pKVWlGOVBQNzJ0NURydTRKcGhabVdwRG5ydXRnNFJjNG55bFp0ZDgzdw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTFB5NWJhYXQyVmQ3Q21paVJmWGVUcnFOMnhWbjZhTklJeUdxZGdrelNNZ1oyRU9hMEo0dmxrMm9JRUpyaDROY0NSME9tYjYzOTJJQW9BTzBMTQ",
+    "municipalityId": "china",
+    "MunicipalityName": "知名町",
+    "date": "2026-05-31T02:21:00",
+    "title": "【写真】知名町で震度3 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5NWJhYXQyVmQ3Q21paVJmWGVUcnFOMnhWbjZhTk...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=知名",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5NWJhYXQyVmQ3Q21paVJmWGVUcnFOMnhWbjZhTklJeUdxZGdrelNNZ1oyRU9hMEo0dmxrMm9JRUpyaDROY0NSME9tYjYzOTJJQW9BTzBMTQ?oc=5"
+  },
+  {
+    "id": "CBMiWEFVX3lxTE1sWXVGUUhJbWtzSndlZ0dDRDROWHM2VmZWY254eTdLMmlNcUh1U1ZMQWV6bVQ4MlpIVjVnM21kX0hSZGFFc0lFVUY5bHFCdmk0cDFXWkRZV1Q",
+    "municipalityId": "china",
+    "MunicipalityName": "知名町",
+    "date": "2026-05-31T02:21:00",
+    "title": "知名町で震度3 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sWXVGUUhJbWtzSndlZ0dDRDROWHM2VmZWY254eT...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=知名",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sWXVGUUhJbWtzSndlZ0dDRDROWHM2VmZWY254eTdLMmlNcUh1U1ZMQWV6bVQ4MlpIVjVnM21kX0hSZGFFc0lFVUY5bHFCdmk0cDFXWkRZV1Q?oc=5"
+  },
+  {
     "id": "CBMi2gJBVV95cUxOZWNTZXcxeEFOOEJlci1JUGhBb2o4azJEeHBMN1B4Z0w4QlFYQS1SSkJyc2NFM3RUbVFyRzJKc2llbzAySm14M2JmVzlXejJaanRLNnQwNmpscmpiaWxJal9mYXkxMnJpbVZ3SnBwMzZhWkxyTXRoRjVLazFmMnJuOHA5bEExTG92SWp0SzdyOTFDbUdvU1ZwaXVSV1dGM0FNUFBPQXFUdkVOOU94TnJObDRnUkFYd19kUVBMaGxKR1B5bTVjMGJSOFEwSFJpb1d4VC1vTFdpV01OdE54MURrRnJEVF9rZThIYXAxdkdfRGdZTHBWczh2Z2pYeEpRTDV0VGdMekRKMnR6Y3d3dWgwSTBDQlZpTDdWLWY0ZmVFRW1pYXljYzRDT2FtSTJmVmJoSFpfdGxiWTc1VC1IZDRaaFZfb3F4eU9YcTFubEFFc2gyUWxRRl9vSkl3",
     "municipalityId": "yoron",
     "MunicipalityName": "与論町",
@@ -636,6 +669,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wSkQ0RDU5MFFHSl9hZlVJampYcHZrNzNZdTYzVFV1X2dDNloyMUJtQUlMdGtpRDI0cUN1UnhLR29fTFl4RnRSWm1GcnU2eWZMM2IzZEM5ZmQ?oc=5"
+  },
+  {
+    "id": "CBMiVkFVX3lxTFBrMnhKd0hnZm9TaTFnLWNpS1loZ1JoUWpybWdsT1BzNDFhcjVSSVdYdElpQXlVLTlpS2hTWGwzZWF5QTNoelk3UGlHTHdQclpVZHFIbXhR",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-05-23T11:00:00",
+    "title": "「創作刺激する題材が奄美に」知事賞の川崎さん、表彰式であいさつ 鹿児島市で県美展２４日まで - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMnhKd0hnZm9TaTFnLWNpS1loZ1JoUWpybWdsT1...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMnhKd0hnZm9TaTFnLWNpS1loZ1JoUWpybWdsT1BzNDFhcjVSSVdYdElpQXlVLTlpS2hTWGwzZWF5QTNoelk3UGlHTHdQclpVZHFIbXhR?oc=5"
   },
   {
     "id": "CBMi3AJBVV95cUxOc2FvOC1fTml5TXAxMjlnX3JsWE9GeFNzdnlXdzRDUlBsOFRGSmEyTDJqVDNlZER6UTh0ZzlqSFJxSmMxU1VtMFpnWDg0NlRDZXhnYV9JME9YXzJvaS02RXVsa04tNmNKN0hLQ1Z0di1XN2plY05rU3FsOWE0cFpUYnFSTnNTOWtsMm1pUUxWblNpU0RheTVyWklhQlNObDR2eEJBMmZDbEVTLVpyTGVpLVBoSEUzSWoyY2pyU255aVpIZzFnMUNEQ2g4SGNydTZOSDhiUFFuS3JyTlpSMG5FSlhhclRHbEpKREpFUDdoQ0REcFZxOXc1TWZGNHJqLWtuZGpVbi1tZFN3TEJsLWRuWktUdXF3Tm5XUGhMLUZYd2lVRXBhd1NsVExaUnVjR2NqQ3lGVWFQQ19Bb25ZZ1VQYWxzZ2N2NldQYXdiekVrUndYMGJ1LUtMN3F0dm4",
