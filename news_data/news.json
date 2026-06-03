@@ -22,6 +22,17 @@
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kVHAyZDJUaDUtczlzRDJMVDBGRzhxWi13aVVsaWpVcUtxamRfOEl2NXZOcEhCaXphb0w3MGNlMnpfVE5OMndzSG5nTGY2S21YaEdZa0JjNA?oc=5"
   },
   {
+    "id": "CBMiV0FVX3lxTE9RWWg2eHlpdjdpSW5OYktnclhPZzVfQnpCbWdTQWxNSnl5YUppMGJydE16c0ZwQzdTdGhMaFlOckx2SkNlcU9ISGhNS3NITVo2VjlqY2gxSQ",
+    "municipalityId": "yamato",
+    "MunicipalityName": "大和村",
+    "date": "2026-06-02T13:00:13",
+    "title": "大和村スモモで落果被害 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RWWg2eHlpdjdpSW5OYktnclhPZzVfQnpCbWdTQW...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=大和",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RWWg2eHlpdjdpSW5OYktnclhPZzVfQnpCbWdTQWxNSnl5YUppMGJydE16c0ZwQzdTdGhMaFlOckx2SkNlcU9ISGhNS3NITVo2VjlqY2gxSQ?oc=5"
+  },
+  {
     "id": "CBMiV0FVX3lxTE92cFlOdWRyVS1uNmhaQ0VMeFo4anpja0Zqcm1vZ2xrUHo2QjVDblR3dHM1eVlEZURSMG9SaVpOLTN3aWhSM2VUOU1jMTI5YVJyWHFTaUlSWQ",
     "municipalityId": "tokuno_shima",
     "MunicipalityName": "徳之島",
@@ -75,6 +86,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9NY0xMbzhiR09WVHdMandoZ1ZEejY3eTNlSVVtZzNJOF9ZTDAyTEFzdFVxZjkyNF9NUTU5dDFFMmFFS1JKU3E3cjhvSkQySDltM1hDdDMxSQ?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTFBWZ3dPRXVHSWJOQXF2cjFZQTlEUVRNUzJ6WmRvZ0tWMGhOV2lHM2Y5TEltWkt0V21YNk9MQjcyT25iaFhVMTY0RkNEbWpPeXFwbDQ2MzBORQ",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-02T01:55:00",
+    "title": "台風6号 最接近は奄美地方2日昼前、県本土2日昼過ぎから夜はじめ 暴風域なくなる （午前9時現在） - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWZ3dPRXVHSWJOQXF2cjFZQTlEUVRNUzJ6WmRvZ0...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWZ3dPRXVHSWJOQXF2cjFZQTlEUVRNUzJ6WmRvZ0tWMGhOV2lHM2Y5TEltWkt0V21YNk9MQjcyT25iaFhVMTY0RkNEbWpPeXFwbDQ2MzBORQ?oc=5"
   },
   {
     "id": "CBMiWEFVX3lxTE5nRGdqVV9XbXlqT0RMV01xY1dRUjBCWlVPYkdYTlhZT0xZWDMwNkJUM2g4ZWZ1S1pGUkE3SDBKNDlJX0VjX1R6R2ljcEZ4U2F0SXIxVElRclA",
@@ -152,6 +174,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=与論",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DSkFZcVEtbEFEajJZMWVjeHZIUUhiTTlfUHliRERyYk1CQ2ZPMFR6MzJMX3lXTFlkZUdTSlF4WU1Ublc3SVEwQ2xHWTYyODNjOXVZeEl5NDZSX1JQcXZoQnJpdw?oc=5"
+  },
+  {
+    "id": "CBMiVkFVX3lxTE5oSnZQcGNOYWNsN1h4TVhvd0xreUNvM3duZ0FrdlpLZ1lCYVR4RW5leHB1TTRwSTRySjFwbW5NQ1AzOHVCRkltM3cwX0YwRTJHbDJBVkVB",
+    "municipalityId": "yoron",
+    "MunicipalityName": "与論町",
+    "date": "2026-06-01T12:00:00",
+    "title": "【写真】台風6号、強い勢力のまま暴風域を伴って北上中…2日に鹿児島県内最接近、線状降水帯発生恐れ 徳之島・沖永良部島・与論島で停電 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oSnZQcGNOYWNsN1h4TVhvd0xreUNvM3duZ0Frdl...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=与論",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oSnZQcGNOYWNsN1h4TVhvd0xreUNvM3duZ0FrdlpLZ1lCYVR4RW5leHB1TTRwSTRySjFwbW5NQ1AzOHVCRkltM3cwX0YwRTJHbDJBVkVB?oc=5"
   },
   {
     "id": "CBMiYEFVX3lxTE1MQzBLRzdKYmN6R1JkcFdNLTB2ekdWTERjWnBjV25CT3hUMmIwRGhMZUtnTWcyVks3ODZXNmh5TUc0YUc2VWZwS3ZiTno4Z1BzUmI1NDVlS09CajhZYTI4UA",
@@ -20029,6 +20062,17 @@
     "source": "南海日日新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=喜界",
     "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNT1dFTHp5RmgzOG1oekxqd0F5bHRMZi1rWVJWWmxSUXhiLTZKUGREVkpKMUc4Q3JyWGlIaW9peTNrZjFQcDdhaERTV016MWU0ak1qN1NiU1lXUTlvWm91a3lMMnl5RUpGbkljX2dpMGpmdjBUSnIya1dMUDJrMFh2U1UxY0pxSjhMMXd0X3FjQ3BZXzR6OV9tMmZMUHFIM0x2WUF6clJudVg5Y21MQlRnbHhJNHVrbzZxMDRQODRwNWpDU0o4RjFDLXpGWkNDZE5ENElicFYtckxST1kybkVVWVk0MXZwSWYtR0lQazB4VzlQTTNVdnVkV2x0Z2lpVXI0dnRqeUhHS01TVTFfbjEtVW5DUzJ6T2stbVNqRS12el9IeDgyT2ZUT3hpanFZWDJ1bnNyOU5WOWgyWmtaaVR2b3R6UXZKdzhZWFR1Q3J5X1N5VmU3QURnbGRB?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE8yWlhmcU5NeVQyRGpsbExiSUNqY3JCRmp1SGRJcDg5VllVd3VSN0YtZFotM1NZLUo4MktsRElBNkdKOU5VNjJHaldtQ3RaY3lvMFVpWGxXYw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2025-06-04T07:00:00",
+    "title": "県議会６月定例会開会 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yWlhmcU5NeVQyRGpsbExiSUNqY3JCRmp1SGRJcD...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yWlhmcU5NeVQyRGpsbExiSUNqY3JCRmp1SGRJcDg5VllVd3VSN0YtZFotM1NZLUo4MktsRElBNkdKOU5VNjJHaldtQ3RaY3lvMFVpWGxXYw?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTFBwTXJyMTVYNVRWUTdpOG50b21xLXBTMWhkUEpkeVJOWVJEMWtSbjZ0Vk81UHlpckE1RFJqcTczajdPRjd1dlJQXzRHWjNHSEZsSTVkNTljTQ",
