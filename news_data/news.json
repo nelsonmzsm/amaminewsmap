@@ -1,5 +1,38 @@
 [
   {
+    "id": "CBMi1wFBVV95cUxPbGJsX0l1ZDFIUFA2LW54UU1tV1JxT09XbWxMbmRobGEzZlB4bWdlek80a2d3TXpoVVNYZzlBZjZrMUhEckxsREVmM05nN1NONFVWUDNrVUNuaV9LdVZvejFfNHQ3eGpLNWJQbjdQVklSNGd1WGFmZ3RfUFJ4eGRtZTExeGtVVG95ZHcxaF9WbGtJb0hZYzJBQ1NPR01MTGpVbU1PYmhqa2JwVGI4RG1JMHhZRlJpNnc1N3N6dFJQOG5qcEVOOHBGNE02ZWN3WVNZWEdNVEhQRQ",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-04T21:02:20",
+    "title": "奄美大島いきものがたり - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbGJsX0l1ZDFIUFA2LW54UU1tV1JxT09XbWxMbm...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbGJsX0l1ZDFIUFA2LW54UU1tV1JxT09XbWxMbmRobGEzZlB4bWdlek80a2d3TXpoVVNYZzlBZjZrMUhEckxsREVmM05nN1NONFVWUDNrVUNuaV9LdVZvejFfNHQ3eGpLNWJQbjdQVklSNGd1WGFmZ3RfUFJ4eGRtZTExeGtVVG95ZHcxaF9WbGtJb0hZYzJBQ1NPR01MTGpVbU1PYmhqa2JwVGI4RG1JMHhZRlJpNnc1N3N6dFJQOG5qcEVOOHBGNE02ZWN3WVNZWEdNVEhQRQ?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTFB2Z05NVXRzVmU5dG1LV3JHVDBDY01TUllzX3Q4SmdIU1pzZVZEUE9wUUdlajJUOWtxQUl5NFNzWmhwMVhueThtMk9qcXE0a1E5VlBJbEd6cw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-04T13:00:29",
+    "title": "「すももフェスタ」予定通り - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2Z05NVXRzVmU5dG1LV3JHVDBDY01TUllzX3Q4Sm...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2Z05NVXRzVmU5dG1LV3JHVDBDY01TUllzX3Q4SmdIU1pzZVZEUE9wUUdlajJUOWtxQUl5NFNzWmhwMVhueThtMk9qcXE0a1E5VlBJbEd6cw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTFBteTdWTHVmdi1GQlZzeUdLMlRIZzQwbFNMUC1saHBjWWpFMy1kUFd3MFFkTTJzMjZHMkJIU1FwT1NFaDF4STBudFR2QzgyM0phNk9rVXRscw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-04T13:00:20",
+    "title": "ごみゼロの日、島きれいに - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBteTdWTHVmdi1GQlZzeUdLMlRIZzQwbFNMUC1saH...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBteTdWTHVmdi1GQlZzeUdLMlRIZzQwbFNMUC1saHBjWWpFMy1kUFd3MFFkTTJzMjZHMkJIU1FwT1NFaDF4STBudFR2QzgyM0phNk9rVXRscw?oc=5"
+  },
+  {
     "id": "CBMifEFVX3lxTE9GOHFWOVFld3BDLWpGOVFBMUduYmFSOE8yRkRkZk95V0o2ZUgyRlFMSzV6MG1DWEp5UjBFT25xYnRXWVVULWhiRGZEOGp3cVRHNmxnWm5XU0RqR21XRU9BSUlRd2V4ZEFielZpLUpyM3hRS0JQaG5PdTNGT1g",
     "municipalityId": "amami_oshima",
     "MunicipalityName": "奄美大島",
@@ -9,6 +42,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GOHFWOVFld3BDLWpGOVFBMUduYmFSOE8yRkRkZk95V0o2ZUgyRlFMSzV6MG1DWEp5UjBFT25xYnRXWVVULWhiRGZEOGp3cVRHNmxnWm5XU0RqR21XRU9BSUlRd2V4ZEFielZpLUpyM3hRS0JQaG5PdTNGT1g?oc=5"
+  },
+  {
+    "id": "CBMie0FVX3lxTE1uWW1HVm5wUDVCUUpBQWZwczA3Y2VfVnJoQks1bDlyWVgzekVyYjRTeV9jY2dHNjFoU1pKZDhfUVVRVU1scE9PQ0VPM0NSRXB4Q1p3ekswamw2RFdsVVNyZHZ6cEFnZ0JIVFF4SVFHWmNGZ3NRQVIwN2traw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-04T03:34:00",
+    "title": "奄美大島近海で震度１の地震 | 地震情報 | 防災情報 | くらし - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1uWW1HVm5wUDVCUUpBQWZwczA3Y2VfVnJoQks1bD...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uWW1HVm5wUDVCUUpBQWZwczA3Y2VfVnJoQks1bDlyWVgzekVyYjRTeV9jY2dHNjFoU1pKZDhfUVVRVU1scE9PQ0VPM0NSRXB4Q1p3ekswamw2RFdsVVNyZHZ6cEFnZ0JIVFF4SVFHWmNGZ3NRQVIwN2traw?oc=5"
   },
   {
     "id": "CBMiWEFVX3lxTE5OMmlvNk1uSU1hR1U3OElyalNPVXJJRW11UFo5dng3OXduNkMwbmFlZXFPTjRFN1NaM2tGWUVHV2kxclVEV2Q0bV9Ea2N0RTdqNUpjamd3VGI",
@@ -143,6 +187,17 @@
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92cFlOdWRyVS1uNmhaQ0VMeFo4anpja0Zqcm1vZ2xrUHo2QjVDblR3dHM1eVlEZURSMG9SaVpOLTN3aWhSM2VUOU1jMTI5YVJyWHFTaUlSWQ?oc=5"
   },
   {
+    "id": "CBMiV0FVX3lxTE9OM1RLVHllRjNPZHhTS2dGdE9mNV9XRUN2akhSbm83Mld0VmJfMzJ5aVNaMWdNb1haNEowSDZNYW9KdkhPbU10N0N0M21nUnEyZzhLQ19zMA",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-02T11:11:13",
+    "title": "台風６号 南３町 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OM1RLVHllRjNPZHhTS2dGdE9mNV9XRUN2akhSbm...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OM1RLVHllRjNPZHhTS2dGdE9mNV9XRUN2akhSbm83Mld0VmJfMzJ5aVNaMWdNb1haNEowSDZNYW9KdkhPbU10N0N0M21nUnEyZzhLQ19zMA?oc=5"
+  },
+  {
     "id": "CBMifEFVX3lxTFB3alM4X1JwdlNmZW40aW9FaGZUUFF6a3VuT2J1clRjQ3FPTHYwLUhjQzN5V1lFMGxnYVpkeVVZRGdfYkJlZU5QaUFkVkNzQWRXYU5CaXlaZm5TVFlEdktJQVlrZXFCS3M0bkFfXzZmNEVxUGhuUmxGQzJFSkQ",
     "municipalityId": "amami_oshima",
     "MunicipalityName": "奄美大島",
@@ -229,6 +284,28 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56WTdGZ1M4U1NBWXVpUUNValFMNnN2WWlUV3pobEtNTFBYOXRQT3ZZcHdmVFVPN0kxaVotTXQ3bmVTWW93c01iYURYZWFla1hoYldWWENsZndUSHBLd3VnYWZRVQ?oc=5"
+  },
+  {
+    "id": "CBMiVkFVX3lxTE5CV1hNNmpCR1hBaFdIUHN2a0tsTDNtNklTT25uVGZuZ0pBblB5dERNeXM4ZllRTnV2ZDQyTUlBX290czItZkMxbFdMMTdfOGpEQ2cyd2d3",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-02T01:24:00",
+    "title": "【写真】台風6号で奄美の3万1960戸停電（2日午前10時現在） - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CV1hNNmpCR1hBaFdIUHN2a0tsTDNtNklTT25uVG...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CV1hNNmpCR1hBaFdIUHN2a0tsTDNtNklTT25uVGZuZ0pBblB5dERNeXM4ZllRTnV2ZDQyTUlBX290czItZkMxbFdMMTdfOGpEQ2cyd2d3?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE9sX0ZGbVlvNDdGb2VQUmhXbFI3Nk41R0ZqSHUzUTBTUnNwaS1GYnNNV1V3Z0d1YUJqTVFJWG5HLTc3ZXIxS0MxdGwxOWt3Vnp5bFZkaG1wYw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-06-02T01:24:00",
+    "title": "台風6号で奄美の3万1960戸停電（2日午前10時現在） - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sX0ZGbVlvNDdGb2VQUmhXbFI3Nk41R0ZqSHUzUT...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sX0ZGbVlvNDdGb2VQUmhXbFI3Nk41R0ZqSHUzUTBTUnNwaS1GYnNNV1V3Z0d1YUJqTVFJWG5HLTc3ZXIxS0MxdGwxOWt3Vnp5bFZkaG1wYw?oc=5"
   },
   {
     "id": "CBMi3AJBVV95cUxQMlJxdC1zM0tnVC12NHZiTVA5eHd2RVhIeXUzUnRoQXhleTcwRHVNTnBqREFTSWVreVM2OTBXaXZhcEUwWGc2cUJ1d3Y1Q011dE9jazZCSnBDRF9QNDlNOHlXaUFtYTVHd0tDdEtuRFR1bThuS1liSGlPcFdoWEJKLV92Ylh5X2cyNkQ5c0JOaHFvR2FUc2ZqaXpQbWVkV0xNR0NiNzJrWVJ3cUNjcmhqVGhLWGhsNE9WOFJaaElRTUctZUtDN3VreUw5QW9ORzVJSTVlWkhvSnRNODkwQmk2SWdWUWFsMk1RdjB3QkdIOEJrS29vRm01bmR5bWpkc2pHeFI4SkRUbU55UW1TNjI0bWpqclRKb281Q2xNemEwZ2V4TkpPX2JSdDU3SDJCTVFrSDlzTEhrV2dwT1VYVFF5Z2s3S21qZ0J2LW1kak1CeVRZMjc4SmxHd1M0RmU",
@@ -594,6 +671,17 @@
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHaklhN29DOU9Jc3p1aThhcjhaRTZpcjBrdHZqMWd4eUo5UHdiUnVpS2ktMWlnQl9WcXJuUS1LSWtiRDI1SXlHZUhtNFIxMm9Uc3FYTno3Yw?oc=5"
   },
   {
+    "id": "CBMiVkFVX3lxTE5NOHlmZEdUeEN0VFlyZHdxN04yQUhZUmxGUnlkNzItdW4wc3lhTlRKSFp1MkJ3ZFljMjgxQ0RSOGtJa3NrU1FuazVncFZIY0VKVTQxSml3",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-05-29T02:10:00",
+    "title": "【写真】消滅危機言語…奄美の方言「島口」を大島高校生徒が調査―島内５市町村３０集落で聞き取り 日本地理学会のポスターセッションで最高賞 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NOHlmZEdUeEN0VFlyZHdxN04yQUhZUmxGUnlkNz...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NOHlmZEdUeEN0VFlyZHdxN04yQUhZUmxGUnlkNzItdW4wc3lhTlRKSFp1MkJ3ZFljMjgxQ0RSOGtJa3NrU1FuazVncFZIY0VKVTQxSml3?oc=5"
+  },
+  {
     "id": "CBMiWEFVX3lxTFBnTXBNR1ZpTmN2Y1lDVVV0cGdiM2d5b0RNWFJIUmtMTlVpck1BU1dKTUVqNGF0cHhla3ExOXlEZ0gzY3dfY09KZHJLT19Ham0yTGRMbmZKYnE",
     "municipalityId": "amami_oshima",
     "MunicipalityName": "奄美大島",
@@ -614,6 +702,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10TjYzcDJTYWZTbGc1Rkh5Q2o2S1p0XzVzUl9Dc2R1d2I2a2ZhQnVfR0J0WlU5U3NBRDNIMjAtdTFpbVhERWdOR0Y3N0ZJQVd1V1BjTF85cw?oc=5"
+  },
+  {
+    "id": "CBMiVkFVX3lxTE1pek5OTG45SG14RUlGVjQwM2lybkpSWGF6TElTMWdMdzB4c0w3NHVQeURMT2hWaUFqdVBxaTBneGItX2REcUg5bUNwOE9qR3ViQlZBTzJB",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-05-28T22:00:00",
+    "title": "【写真】佐賀・陸自オスプレイ、6月から奄美大島で訓練――防衛省「南西諸島防衛、災害救援能力の強化視野」 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pek5OTG45SG14RUlGVjQwM2lybkpSWGF6TElTMW...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pek5OTG45SG14RUlGVjQwM2lybkpSWGF6TElTMWdMdzB4c0w3NHVQeURMT2hWaUFqdVBxaTBneGItX2REcUg5bUNwOE9qR3ViQlZBTzJB?oc=5"
   },
   {
     "id": "CBMiWEFVX3lxTFBNY3BfakgtQnZIcHY1YTRwc21rdnFMUXJEUUhPWjc1TGJfSG1jaUdjYlNBQnJaSlhhSEg0NlZaZTBpZUdYYjNPNDBOd2NJYnZWUDNydUlXVXM",
@@ -2453,6 +2552,17 @@
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42MVlOYjVnRm1CYkNZT3lXaW55VTg3MW81Q0VYYXNZQUxCN3RjdTR4OEdoMU1oRGNBWFkwUDlIX0g1eFYyU0FHcUVhUTNfYS1ualVjdzhn?oc=5"
   },
   {
+    "id": "CBMiV0FVX3lxTFBUVUEtYTZ0WnAyNmNfZ1dXOFNTc3JsUms4M0hVV1FBb3hnb2FTcXdLbElXbGJhT1luQ041UVJsYnNWMldkNkFGTnUzYWZNelFNaDhPa1QtOA",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-05-09T07:00:00",
+    "title": "１０日から「愛鳥週間」 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUVUEtYTZ0WnAyNmNfZ1dXOFNTc3JsUms4M0hVV1...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUVUEtYTZ0WnAyNmNfZ1dXOFNTc3JsUms4M0hVV1FBb3hnb2FTcXdLbElXbGJhT1luQ041UVJsYnNWMldkNkFGTnUzYWZNelFNaDhPa1QtOA?oc=5"
+  },
+  {
     "id": "CBMi2gJBVV95cUxPLVhyekVZUms0VXplQUlxSlJFMFB6NnhyN2JGZUtFbWJVZm1wc3hWQ0UyMk5FYl9uU3FXX3lKbjhidmNTTzczNTRrcl9md0liVGliVG1BWmkybThYWTdrc3NqeGtHMXM3ZGFYLV9SamsyN0g3bXVON19XNEtETlhLYXZwNFpiMGYtY1lubmdHT3E4WXVlTkhLMUwxNGpGTHZORG9FZFJGMnB1V1otYmtPMmNvZzVTS2lNUWt6WXR6cDRNLWxlYWFoV0l3cXdiU3ZFRWswX1BqLUpCXzVOSDJvX1UteGs1UWJqODAxUnliOXdSNEk2VHd2Y0xQcDFTSFMwVEd6YnhxWS1rUjZuS3RQZE5qeG13YThidUhVZHNEdG1tSTVkbS1JaFVfZDBTWnk1ZVZKbGsxM1BjamN0R0Y1bnZnYWJfSG5Bc0p1ZERua1ZHeVh0RTRuOVFn",
     "municipalityId": "amami",
     "MunicipalityName": "奄美市",
@@ -4266,6 +4376,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lOUFjNm54akJSV3BaamRJVVhXNGxvN3ZZaHhmb1ZLcXE0TG1LYUJ1SUdlX2tLcWtJUUN0TmtPdnpiWWMzMW13dlBvbXVVUjlLYXV3bldB?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE1RUV9SamZ0TVIxVlVtMEMtbVJpbjhxYnR6UWgycTRWcFJ6R1ZnSXhWUGxLQ2F5YjZIYmQwOVlPdXR0UFJuczRFazNxTnhYWTBqYlNPUXprbw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-04-16T07:00:00",
+    "title": "ルリカケスのヒナ巣立つ - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RUV9SamZ0TVIxVlVtMEMtbVJpbjhxYnR6UWgycT...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RUV9SamZ0TVIxVlVtMEMtbVJpbjhxYnR6UWgycTRWcFJ6R1ZnSXhWUGxLQ2F5YjZIYmQwOVlPdXR0UFJuczRFazNxTnhYWTBqYlNPUXprbw?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE51dTRaMVhGTWkzNUVpYzBCOWQybkNXVWhzX2pfakszN1NKSFRWbEhYWGNHNWt0N0lGVmE1WU5aRGUtaU94TGdBRV9PNGlaMzRUcWdwVzBKZw",
@@ -17017,6 +17138,17 @@
     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPSWZIRUt0aUhibGYtcldwVFBKQmdLRjZTMXoxVnVUODVONllDbktXaG52NldULXRPV2d0ZzNEdFlyUm9LMGpBalVwMjctS1g2VWhxSHNrMzZKNklLLUxUYUE1dEhWclRmRE1UY1hjSUNXTXNjYnFTNHVfUkt1bEw5LTFISEhIemZELXFaWllfWm5yMWFTLW1ncF9IWHd3TnFLSVNiOVFXVGpBb0dBbXUwbzVYU0h5UllkQVg1TjZubWZfOG9SeGI4a1o5MU5VNVdoZXVZdk9qVTRoWFlmSHhGNmZud2F2OWowS0RIU3VVaHBtb3hEZG1vRHM1cld2NUZlTnF3Mm5PLWl4TWlBeFlCSm9oSFdlS2xSWGo1X2pIZDV3Y1U4Y21UYjlFZXNSaVVsTW1YR0VtYkVUUkVuRVRjdzJlcUhxQW0tUHdEbWVWclFldzZieXBR?oc=5"
   },
   {
+    "id": "CBMi2gJBVV95cUxOYUFhdW9IclVUOTJ4SlFUdGVWSkxlaTJMa3VlYmNKLU5oMWFFM0pmbUprV3JjZUZFREMxX0g3SXlUb3BNUEJfZE5HQ2hfSVhOak4xaTlCTE9Zc0RiU1ZZdC14cVVSZkZIcFg3YTlfaExNc1lkZzh4V05qQUZ4VEdsRUhNWEtnZGxSMTBqbEhkOGpGZV94ZUpBZ21pem1PQzZoMmJnYjliUnVoaFZHODNGYmM4OS1YU2xnZmdrbUI2bnFRbHB6M2VMSElRSkNhb25KN2xRb0dKeUlZc0lJdVVhY0g2X2Nia0JfaDNyOWQ4NDhUUXdzakg0NDdGOHZpMHRJMzN3WFJvXzV3SlFEdWRIVEs1TGZBMFkzUmViQmZfZXZMYy1ScXprSkhtazE2di1UcTA0N1RNeTVGNmpUSl9ma3RCN2JudGhTVXBicUlKc0JpSG1PT19VRnJR",
+    "municipalityId": "tokunoshima",
+    "MunicipalityName": "徳之島町",
+    "date": "2025-10-14T07:00:00",
+    "title": "日本初 海底彫刻設置へ アート兼ね、漁礁化目指す 徳之島町｜社会・経済 - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi2gJBVV95cUxOYUFhdW9IclVUOTJ4SlFUdGVWSkxlaTJMa3VlYm...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
+    "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOYUFhdW9IclVUOTJ4SlFUdGVWSkxlaTJMa3VlYmNKLU5oMWFFM0pmbUprV3JjZUZFREMxX0g3SXlUb3BNUEJfZE5HQ2hfSVhOak4xaTlCTE9Zc0RiU1ZZdC14cVVSZkZIcFg3YTlfaExNc1lkZzh4V05qQUZ4VEdsRUhNWEtnZGxSMTBqbEhkOGpGZV94ZUpBZ21pem1PQzZoMmJnYjliUnVoaFZHODNGYmM4OS1YU2xnZmdrbUI2bnFRbHB6M2VMSElRSkNhb25KN2xRb0dKeUlZc0lJdVVhY0g2X2Nia0JfaDNyOWQ4NDhUUXdzakg0NDdGOHZpMHRJMzN3WFJvXzV3SlFEdWRIVEs1TGZBMFkzUmViQmZfZXZMYy1ScXprSkhtazE2di1UcTA0N1RNeTVGNmpUSl9ma3RCN2JudGhTVXBicUlKc0JpSG1PT19VRnJR?oc=5"
+  },
+  {
     "id": "CBMiV0FVX3lxTE8zYU5neDY4d0x6Y1l1TUluanJUbTI1aGNfY2JYam1VLW8xR082NU9iVHBXOUZ4cWdGdFVLUU1RX2NmTi1hWDFvZ05tNS10YkZIZVJuSExHdw",
     "municipalityId": "amami_oshima",
     "MunicipalityName": "奄美大島",
@@ -19987,6 +20119,17 @@
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50RXd6QmZ2QlR6VURKeE5UWUowbmtRYWdOMFFFc01xd0ZyLW5wczJ0Q3V5dGVCcDNpNE5mSlR3WlJsczFjb1RLbVd3RFNwYXlGb1hfRkxNYw?oc=5"
   },
   {
+    "id": "CBMi1AJBVV95cUxPT1ZOendoSTBxbFk0WFlfa2lTXy0tcjV5d000WmpoOHFVaWwtNFI1X1BUTmp1enBRLS0yQm1TZHBjakI1ZEtJR1RGZFlkY0gzRm5hdkJLdzB6c19oYVlTZmdZeW1hR3lsSzJVYmtDZzk2ak1PamkyUHFzUXRXbFJnM2VIUHUzSHl0cXRoMGZUZ3dZVUEzaTlhMHBTZlVZbFFNVFZUTElONXJKUF9IMHd1c1Q4M2ZQRkh1bTZCWTI3MVd6NUpMV1BqU1V1VUFuOWlEbXoyNGYyazVxRlR5VEgtXzFaR2lpVWhfdGQ3ZGFHYlVMNFE1V09qVlpkOEpmbEhvcmN0VXRNd1NiM3phTUFuX0VSZEZSb1Q1R2psM3RNYnNrNktvN2JqblBxYVh6MWZ5Zm9Pa3FQaXNPb0R2LXBuR1NzSzNVU0h1SV9DSkFEWVp4THla",
+    "municipalityId": "yamato",
+    "MunicipalityName": "大和村",
+    "date": "2025-06-15T07:00:00",
+    "title": "〝ダブルモモ〟でＰＲ目指す 小ぶりで甘い「さくひめ」栽培 大和村の盛さん｜地域 - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi1AJBVV95cUxPT1ZOendoSTBxbFk0WFlfa2lTXy0tcjV5d000Wm...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=大和",
+    "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPT1ZOendoSTBxbFk0WFlfa2lTXy0tcjV5d000WmpoOHFVaWwtNFI1X1BUTmp1enBRLS0yQm1TZHBjakI1ZEtJR1RGZFlkY0gzRm5hdkJLdzB6c19oYVlTZmdZeW1hR3lsSzJVYmtDZzk2ak1PamkyUHFzUXRXbFJnM2VIUHUzSHl0cXRoMGZUZ3dZVUEzaTlhMHBTZlVZbFFNVFZUTElONXJKUF9IMHd1c1Q4M2ZQRkh1bTZCWTI3MVd6NUpMV1BqU1V1VUFuOWlEbXoyNGYyazVxRlR5VEgtXzFaR2lpVWhfdGQ3ZGFHYlVMNFE1V09qVlpkOEpmbEhvcmN0VXRNd1NiM3phTUFuX0VSZEZSb1Q1R2psM3RNYnNrNktvN2JqblBxYVh6MWZ5Zm9Pa3FQaXNPb0R2LXBuR1NzSzNVU0h1SV9DSkFEWVp4THla?oc=5"
+  },
+  {
     "id": "CBMiVkFVX3lxTE1Nb3daSGViWk12NThpN1RBMlV2bjBCYjZUYTRNamhFekhBUEtSSWRqLUNTWnpRN2ljQ2gwd1NPWWlfSHNTelo4ZEJhRUFPM3U4UGdVSTR3",
     "municipalityId": "amami",
     "MunicipalityName": "奄美市",
@@ -20238,6 +20381,17 @@
     "source": "奄美新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yWlhmcU5NeVQyRGpsbExiSUNqY3JCRmp1SGRJcDg5VllVd3VSN0YtZFotM1NZLUo4MktsRElBNkdKOU5VNjJHaldtQ3RaY3lvMFVpWGxXYw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE9wOGc1MlVmdGpYWXFQeGlGYUhORUlNRGdoOVB5VEVkcUlQb2w3Rlhtdnc4WVd3aEtEYXM2YmlhV0hQTUhMSVNkUkp5WWU2QnlCRlQyMzl6UQ",
+    "municipalityId": "yamato",
+    "MunicipalityName": "大和村",
+    "date": "2025-06-04T07:00:00",
+    "title": "大和村スモモ - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wOGc1MlVmdGpYWXFQeGlGYUhORUlNRGdoOVB5VE...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=大和",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wOGc1MlVmdGpYWXFQeGlGYUhORUlNRGdoOVB5VEVkcUlQb2w3Rlhtdnc4WVd3aEtEYXM2YmlhV0hQTUhMSVNkUkp5WWU2QnlCRlQyMzl6UQ?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTFBwTXJyMTVYNVRWUTdpOG50b21xLXBTMWhkUEpkeVJOWVJEMWtSbjZ0Vk81UHlpckE1RFJqcTczajdPRjd1dlJQXzRHWjNHSEZsSTVkNTljTQ",
