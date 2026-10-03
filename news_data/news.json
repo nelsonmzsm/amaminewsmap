@@ -1,5 +1,27 @@
 [
   {
+    "id": "CBMifEFVX3lxTE9mNVFTanI4ZlNrby1uNHdudG5FZ3ZFMDAzX3E4d3hGRWhhcGZBOUVmYW9VWXVEVU9tNUttZ0U3dzZNYUdhdHVHM3kyeVpiWl8zc2JwSzNSRmtXejUyeGZJUDF4UHBzeDQtVWNJNmFFY04yem1ocklfdmxfeXA",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-03T06:05:00",
+    "title": "奄美大島北東沖で震度１の地震 | 地震情報 | 防災情報 | くらし - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9mNVFTanI4ZlNrby1uNHdudG5FZ3ZFMDAzX3E4d3...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mNVFTanI4ZlNrby1uNHdudG5FZ3ZFMDAzX3E4d3hGRWhhcGZBOUVmYW9VWXVEVU9tNUttZ0U3dzZNYUdhdHVHM3kyeVpiWl8zc2JwSzNSRmtXejUyeGZJUDF4UHBzeDQtVWNJNmFFY04yem1ocklfdmxfeXA?oc=5"
+  },
+  {
+    "id": "CBMiggFBVV95cUxPX1JjME0zV0pNaG80eDFHSGdVNm9mVHVMeENiWnFNcF9QRE4tdGRfeE04Yk9NMmpteFdDWkh2eHM4UHZIcm9YWmRxX0c5WWNSUXJvNmVNaFNJQnplRVRfeWZCR0lIUXlCSkhSOEpjT1d4WjZpYjBHRF9IT28yMmpfakZn",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-03T02:01:05",
+    "title": "小牧発・奄美直行チャーター「行こまい！東洋のガラパゴス・奄美大島2泊3日」1/14限定出発 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1JjME0zV0pNaG80eDFHSGdVNm9mVHVMeENiWn...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1JjME0zV0pNaG80eDFHSGdVNm9mVHVMeENiWnFNcF9QRE4tdGRfeE04Yk9NMmpteFdDWkh2eHM4UHZIcm9YWmRxX0c5WWNSUXJvNmVNaFNJQnplRVRfeWZCR0lIUXlCSkhSOEpjT1d4WjZpYjBHRF9IT28yMmpfakZn?oc=5"
+  },
+  {
     "id": "CBMi1wJBVV95cUxQOHNEQUh4UF85cjdqM3M1WDBibm9seFdkV0hwdjd0TVVEM1hkelRXUk9BSGhqSnNkcmNFdzVnU2RzbDdOejBEbXVjSEN1Tkhob09NTmZwUFJPRll4V1V4RlotTkxXeVZRYmJiU2o4eVJ6MGFaQjltWTNtWTktV28yQm9uNElQTVFHZjFuQjRnNHlDZE1xT0tmOGo4LTVfdUowSXpvSlNzY2NTRjZGUHhjSHhDRHBqNVdJd3ZkT2N0SElIajMtWnc2SjBaVzBWRUxveDlYeld3bnRxeTBoQ0hXY3R3X1ZJM283S09FeGk3YVFnaUJYN1lWaG9SUjRKeGkxcHVnQmZaUmNRNXZDb0RSQmV0akpJLVFrMHYtU2dkbzEtZWxHNHV6aHBCdUxac21raTgyTVhVb0kxRnlVUWdpbmVGeXZVaFlnaGNUYlh5T28wZk55dXlv",
     "municipalityId": "china",
     "MunicipalityName": "知名町",
@@ -9,6 +31,17 @@
     "source": "南海日日新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=知名",
     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQOHNEQUh4UF85cjdqM3M1WDBibm9seFdkV0hwdjd0TVVEM1hkelRXUk9BSGhqSnNkcmNFdzVnU2RzbDdOejBEbXVjSEN1Tkhob09NTmZwUFJPRll4V1V4RlotTkxXeVZRYmJiU2o4eVJ6MGFaQjltWTNtWTktV28yQm9uNElQTVFHZjFuQjRnNHlDZE1xT0tmOGo4LTVfdUowSXpvSlNzY2NTRjZGUHhjSHhDRHBqNVdJd3ZkT2N0SElIajMtWnc2SjBaVzBWRUxveDlYeld3bnRxeTBoQ0hXY3R3X1ZJM283S09FeGk3YVFnaUJYN1lWaG9SUjRKeGkxcHVnQmZaUmNRNXZDb0RSQmV0akpJLVFrMHYtU2dkbzEtZWxHNHV6aHBCdUxac21raTgyTVhVb0kxRnlVUWdpbmVGeXZVaFlnaGNUYlh5T28wZk55dXlv?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE9WSzBHM1c0dGF6YzNKVFlEdlJHSXgwN2pHVERmcEo0ZHJBQm10YWNaSzZNZEN0ZEYtbjVGMHlvbFhGSGp3Uk1LR2ZpdHVybUNUSXlLTU16Zw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-02T11:39:46",
+    "title": "台風の後遺症、世界自然遺産の森にも - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WSzBHM1c0dGF6YzNKVFlEdlJHSXgwN2pHVERmcE...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WSzBHM1c0dGF6YzNKVFlEdlJHSXgwN2pHVERmcEo0ZHJBQm10YWNaSzZNZEN0ZEYtbjVGMHlvbFhGSGp3Uk1LR2ZpdHVybUNUSXlLTU16Zw?oc=5"
   },
   {
     "id": "CBMi3AJBVV95cUxNdm41elhSLUMtaU5tMnFPVWFJdWNwRktXMzlFcm5Tckc2YmhHQm9nX3dqRlFtd2NUazJhVDVEblhuSHJvakFjRU5ZaFZQeHRPSDduUW8tYVI3Mmg1cC1mdnZMQlgxREpfd1BqeEJsUmVHbjdDcklQaGJ3WEQtWThmYVF1U2tFTHFZMnFhZEN2MnFHTHI2TXRqeXFVN01GRmtXY2tRdm40TUQ2TXFuYWpYb2dsMFNLV3BlX2xHeEVDZTBJZWFBb3hOUkxVWE1FaGdHcDVSQ01ZYXpKZFhYVi02Q0FMMlZoblpPWWxCODkxVUhxX3QxeE5IekpoRVFVN005MFBVTmdxRXIxU0M2VkhhbVJzQnk4aEdSanFzM3VGZ0dtRU81RFczLS1FUDJ3dDBNeDYzREp5MTBLVkpMcnBsNlVMRlpHeFk3QWtKbTZUUnk5eVF3VWlReWxmNHM",
@@ -53,6 +86,17 @@
     "source": "奄美新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=瀬戸",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJUHAzUkVnVFROMjN0ZHpjeEFZVXhGbVNEXzdfRnBJTHFVc2R5QW1rYzBtMF9tcnB1RS1QZU0zTmd5R0wyelVOT002VDdDSmlkWGUyVXRJVQ?oc=5"
+  },
+  {
+    "id": "CBMigAFBVV95cUxNajFxOTJLWUhfUk81bmRHeXJQTzRfUUJsMGtwSER6MXZUUlQ2eUpTa2hFQ3ZXX1NrZGlKd25hRXdWWW0tUVZ3dl9aa0dxR0hsVDlCTHFkTEVtUHlVcG9zOVNEMjFFOS0zSUg2M1praEVJWHE5cC1UY2FBNzhaVTVuZg",
+    "municipalityId": "setouchi",
+    "MunicipalityName": "瀬戸内町",
+    "date": "2026-10-01T09:00:00",
+    "title": "【DMMヘルスケア】合同会社DMM.comと鹿児島県瀬戸内町が包括連携協定を締結 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNajFxOTJLWUhfUk81bmRHeXJQTzRfUUJsMGtwSE...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=瀬戸",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNajFxOTJLWUhfUk81bmRHeXJQTzRfUUJsMGtwSER6MXZUUlQ2eUpTa2hFQ3ZXX1NrZGlKd25hRXdWWW0tUVZ3dl9aa0dxR0hsVDlCTHFkTEVtUHlVcG9zOVNEMjFFOS0zSUg2M1praEVJWHE5cC1UY2FBNzhaVTVuZg?oc=5"
   },
   {
     "id": "CBMiggFBVV95cUxOWEMwRGRidWxtUm5PUFpMZ1dJd3pXRzVHRl82Ul83MFh5Z013TXExaEFNY1BmNkRCU2ZQb0I4MEZwOV9ZTmdxbVg3LXZlZVcwaTd5WDkwb3pFeS0xOVRndXVaQWRRVmE4R04zLWtSWGNVVlFPOW94eGdqQ3VhaS02NjZB",
@@ -163,6 +207,17 @@
     "source": "奄美新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PYUtUanIxWl94cGt2Umt2cTE5YUQycmw2Yy0wdDRDek5ycTNZVDBNNUlDck01dzR3WFBKd3lLV1NzVU5Jd255QUY2Nkt1dV9ZM1o4a1BTUQ?oc=5"
+  },
+  {
+    "id": "CBMigAFBVV95cUxNZlFxQXAtN0gwaUU4ZVlDbVprb1k2UmFQSloxa3duMUpseTBmNHJoZVlDc0hSMHBWOVd5TTJuUG83MWc3dFdWWUd4Z1NVV2NiMHpYMWgyWHBwNDkxUVhYX1llSjZEUnctV2RzQ0N6Z0U4TnR1Qmc5WjlSM1BQOTBhaA",
+    "municipalityId": "setouchi",
+    "MunicipalityName": "瀬戸内町",
+    "date": "2026-09-30T06:33:11",
+    "title": "鹿児島県瀬戸内町の幼稚園が10月1日より 保育ICTサービス「CoDMON（コドモン）」を導入 全国760自治体、鹿児島県内では計10自治体に普及 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNZlFxQXAtN0gwaUU4ZVlDbVprb1k2UmFQSloxa3...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=瀬戸",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZlFxQXAtN0gwaUU4ZVlDbVprb1k2UmFQSloxa3duMUpseTBmNHJoZVlDc0hSMHBWOVd5TTJuUG83MWc3dFdWWUd4Z1NVV2NiMHpYMWgyWHBwNDkxUVhYX1llSjZEUnctV2RzQ0N6Z0U4TnR1Qmc5WjlSM1BQOTBhaA?oc=5"
   },
   {
     "id": "CBMiggFBVV95cUxPS3BqVzdlZmlKOUpid0w1WkpVSkdKQU9GYlNOWjhBRG80azBDcjB1NUpKeElLRlpGc2NyeFBCUEZPMVhIaVo4ODlHYWd6Y2NrRkRMclJ4ejk5dHFyUlVjSFlmVTBCMjVXdTRlanZDZmpMcmxPYzJnVk1YQ2dmeWJpUUtB",
