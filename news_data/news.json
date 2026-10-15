@@ -1,5 +1,16 @@
 [
   {
+    "id": "CBMiV0FVX3lxTFA0NjA1cHQxR3pLSW8wUlNNWEtNNjZWSlpuOUhoeEpFRThBVk9GaHBRQkp6N1BJajJ2RVZWUHdqQlMxRGxSSzhCNGV6eFpURHlGRHNmb1lyaw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-15T13:00:01",
+    "title": "ホテル・レクストン奄美31日開業へ - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0NjA1cHQxR3pLSW8wUlNNWEtNNjZWSlpuOUhoeE...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0NjA1cHQxR3pLSW8wUlNNWEtNNjZWSlpuOUhoeEpFRThBVk9GaHBRQkp6N1BJajJ2RVZWUHdqQlMxRGxSSzhCNGV6eFpURHlGRHNmb1lyaw?oc=5"
+  },
+  {
     "id": "CBMiggFBVV95cUxQVG9YMjFrQjJUZTUwcWt0ZjZ2Snp1bkZOUFJydzBQbE5DX01EdHg2dm9ReS1sSk1yUnN0ZnVPbkVQTjY1ckQwSWNHRVFxQjRKMHhUd3h6bmNIdGdlaFE3WjFjYzBNdDBSRkhfQXI5amk2TFRVUlFzYnZHM3ozclUwWU1n",
     "municipalityId": "kikai_jima",
     "MunicipalityName": "喜界島",
@@ -20,6 +31,17 @@
     "source": "南海日日新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
     "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOTzJvMlFKaTdIS2lTNk5razlVbERBcmMxYnc5YUVkOFV1MDlReFctRVRndlktWmREdUJPbmJJcm1aSFVSUmdEMkhJbGM5Vk82WnoyV3VEcHJpUTBJUXdGNHpVamZ2UEViRk9wRUFXSk9hN1JXMFVVRGZjQWNTRDEtMEgxMjExTEhEcGMwSGpadUFXekRNSTVxNnl3T2NjLWRTUC1uT3hRVUM1M0VnRUstU1V2X0NRNmZGUW5WMkxDdHJrQjhvOVJPdGNTSkxNNGZNYl93SG5FbEpSeHpsUWVwelQtM01xWHNMZzRnMUp6cFRINVdlZy1DR3JvdVJQbDZ2ak1TVlNnUE0zaHY1Y29kaHVKTDF2S3pkRW1MUEN1STZIZFJ5VXJSVGNwekJwYXZuNHRoLUpEQTlFbFd1VEU2TVRpTUlhZGt4UUVqckRabjU2OWYz?oc=5"
+  },
+  {
+    "id": "CBMi3AJBVV95cUxNaTVrdzhQR3VpRXloeVVoSUtiQ0pSLTE4b2d2eWZWalhVekhEeTJ4TktRRGg1dzVPUGtOMnFKVTlSNVVYaFFPcXJDai1KdUpaSk5uc0hhU2tuWHNDNnNqZVEtOHNwOWdfNXU0LW4xRHUxRW5NelVEYTE2eEVBbnlLTVl3b0VDSTdKcTlXeFk1WHQ4WklJcEZhRnp1eUZQNXVxN2lHLVBBUWdEYkZyYVEyeDI2QkFuSkxiSGMwRGxGVG84UVljUzdzXzhfbzVRdWQzWTE4Tm5sMWJQNjdQZlkyNzRHX1BXUFk4VXdDUjF2TmMwQmNnQlAwUW5XUWtGTjVMMGlyYUJiYjVVT0FYVjg3VFFyUjlJa3RQQzdhekdERnp5UUtjMllMZG94TnhuUURFYWZOSzU5UEhPQU9UWHRvVy1GZkF4WlVpU1Z0Qld1eWxXajJpR1lUN3BnZHc",
+    "municipalityId": "tatsugo",
+    "MunicipalityName": "龍郷町",
+    "date": "2026-10-14T21:05:41",
+    "title": "本場奄美大島紬の後継者育成へ 県外から３人、インターン参加 龍郷町｜政治・行政 - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi3AJBVV95cUxNaTVrdzhQR3VpRXloeVVoSUtiQ0pSLTE4b2d2eW...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=龍郷",
+    "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNaTVrdzhQR3VpRXloeVVoSUtiQ0pSLTE4b2d2eWZWalhVekhEeTJ4TktRRGg1dzVPUGtOMnFKVTlSNVVYaFFPcXJDai1KdUpaSk5uc0hhU2tuWHNDNnNqZVEtOHNwOWdfNXU0LW4xRHUxRW5NelVEYTE2eEVBbnlLTVl3b0VDSTdKcTlXeFk1WHQ4WklJcEZhRnp1eUZQNXVxN2lHLVBBUWdEYkZyYVEyeDI2QkFuSkxiSGMwRGxGVG84UVljUzdzXzhfbzVRdWQzWTE4Tm5sMWJQNjdQZlkyNzRHX1BXUFk4VXdDUjF2TmMwQmNnQlAwUW5XUWtGTjVMMGlyYUJiYjVVT0FYVjg3VFFyUjlJa3RQQzdhekdERnp5UUtjMllMZG94TnhuUURFYWZOSzU5UEhPQU9UWHRvVy1GZkF4WlVpU1Z0Qld1eWxXajJpR1lUN3BnZHc?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE8xb2hMWVlKT2dpcDRwVi13WkJyeVhzMkxPZlFxNzRUSm92ODc1d25MT2lPY3BKMmVnTmxOT3dmR21xSjg3QVZXUHgzUW8wQkJYNml4SDhHWQ",
@@ -251,6 +273,17 @@
     "source": "南海日日新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
     "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOQ0F5cXBBYXJwSTlueHVpUUpWd0JaczczWDRHQzQwOGVQTGZDekJ6aVl6Y0trNFNrOGRWSHRUYWdZQ3BkRkdqNGRVYUlWTl91b3NZQVNQd013bWdJTC1IM3dxTGRQc3NVb3ZsNy1MMmJmbHZJODhrZUdPUkNjVHhGY3VRQnZ5Qm5pODNvdTBMTW9fbEV4SV9IRW1uUURZQjRBdnFPRWU0Q2E5dWZ2UVJpWlVaTVExUUp6dlVYeV9ZMUFSejR2b0U2MGsxU2diLXVKM210LS03OWdUb2xuSlMxTlVwWGt3RkotQmZPYzN1Z0tucnVlWVFzOG1neFY0SnhnY1gzaWgzbVdPZGFqdWJfLWlHUkJLYWx3d25IUGtsOXZtVXVPeWFBZ2dkRlRyaWNmVFRTWmtzTVNTc01SVTNKaVRyOGxpYTM2d2hveWlKT0d5MGtRWi1KWA?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE16TzlJdkgyMmlDb2FSRWZLOVZldl9TN1U5d2tBZnM5bHZPQVppM2VvYU1uM2JpQzU4eWYyOU5wWDFmdEJ2TGRKVjNHRTlwb1hDeXJORWQzdw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-10T09:00:39",
+    "title": "奄美のために出来ること - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE16TzlJdkgyMmlDb2FSRWZLOVZldl9TN1U5d2tBZn...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16TzlJdkgyMmlDb2FSRWZLOVZldl9TN1U5d2tBZnM5bHZPQVppM2VvYU1uM2JpQzU4eWYyOU5wWDFmdEJ2TGRKVjNHRTlwb1hDeXJORWQzdw?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE1oWUI2Z1VQbXdiVGFKMmdkQnBjOXhBRkh6WkFTRVkzbW14QmVWVl9GOGt2b3pqNWZGYTVzV3FaMExKUGt0RlNEakxaMkdzTEdlWTlsZlZhWQ",
