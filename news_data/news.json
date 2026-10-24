@@ -55,6 +55,17 @@
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xeFZrN2h6Q2c1ekhIOHVsQzB5dklERVVTTDFUd2d3eVItNzNraC1kbTYzMEhNZ3pwLVBSeU41OGdfUjVubkI3dkV0OW1xOXBhS3JQX00xSjE?oc=5"
   },
   {
+    "id": "CBMiV0FVX3lxTE9JVV8zdlZrMVppaDlodlpTQVNSOEdnblRDcUhCWHM5Ykt1M2ltY2hwMER4QmpEUEtrcHZQcHJ0ZkJuVVlEQkZxa3pfREQ4eUpXbnNUNWV3OA",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-23T13:00:17",
+    "title": "傘寿祝い全国同窓会 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JVV8zdlZrMVppaDlodlpTQVNSOEdnblRDcUhCWH...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JVV8zdlZrMVppaDlodlpTQVNSOEdnblRDcUhCWHM5Ykt1M2ltY2hwMER4QmpEUEtrcHZQcHJ0ZkJuVVlEQkZxa3pfREQ4eUpXbnNUNWV3OA?oc=5"
+  },
+  {
     "id": "CBMiV0FVX3lxTE1PVGhQdnVPRjVHOFItSFRHRHNvRGpXNmFNV2dEOVNqeFhFeVVoMXJtc3NIa3UwOHNmUkdnYjZmUDA5OVFoVmczWnNFTmpjX2F1dmVmaWJ5QQ",
     "municipalityId": "wadomari",
     "MunicipalityName": "和泊町",
@@ -581,6 +592,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=伊仙",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBUDlWblc2WmdGOThsZUx2d01BdFptOUFNUjU1WlF6Q2VfSDJfUmV0eFozWkQwandtUVU1N0VCR25jeTMwN0E0UVJIaFdNbUJiOHNhbGhLRQ?oc=5"
+  },
+  {
+    "id": "CBMiVkFVX3lxTE93SzdTWTJrczBhNy1yTE1ZUGx4WGR0QXFWQVVnM3dSUzNjV3NaT2M3azIyZmdBLXltdDBKbXBTTkx3Q2hQMmRvU2ZGR2picTAxR1FpNXpn",
+    "municipalityId": "isen",
+    "MunicipalityName": "伊仙町",
+    "date": "2026-10-19T21:00:00",
+    "title": "〈伊仙町女性保育士刺殺・初公判〉はきはきと返答する被告…事件前も2度、被害者宅に侵入 検察「強い殺意と計画性」強調 - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE93SzdTWTJrczBhNy1yTE1ZUGx4WGR0QXFWQVVnM3...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=伊仙",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93SzdTWTJrczBhNy1yTE1ZUGx4WGR0QXFWQVVnM3dSUzNjV3NaT2M3azIyZmdBLXltdDBKbXBTTkx3Q2hQMmRvU2ZGR2picTAxR1FpNXpn?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE8tQXdTUkx1YjhNZzdsWkxsMGtMaV9LbDVYNm83SWlnanpUNklhZGtQWGpmVlk1NmNCUnF1MHRrb05Ubjh5WEJFXy1EclQxMUlQM2lLaVFtRQ",
@@ -2066,6 +2088,17 @@
     "source": "奄美群島南三島経済新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=伊仙",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sb0NNeXFRcmJIN29neG1yZXIwZndRZ1Z0OUUwZjdrSDRBNGx4Um5aOWNhckhjU2htS0pQeWdqMlVLbGtQSDNjMTBHUXdEenNhZTVWeTliOE4zbV81bEZJMTFNY3BoWlZxdF9EeA?oc=5"
+  },
+  {
+    "id": "CBMi2gJBVV95cUxPTjluMHJ5QXNIdXBabExfWEZJSGl1TmJPbUE5aVRldlluTnBscnF2Sjk5TkxxalNMSjU5M0Y1eW1mSDBLRHJabVZuTkp5Uld5alBOMy1oaFZGVzlxX2tuM3VCX0o1alhFTktjSmFOTzZqTFg0bmtpNzU4TUMyVV81bnk4NHFtOGJTQW13dlgxa1M3OERXaTdGcUpzcHd0VjRKcEQwWi1GdU8zNnpmRW9EWXo0NFdPS3I4dU9na3JyYTYyZEd1SVZoODI2SFZDbDlLNWFRLWw0blBUMlBfNXZScFF3SmZPOEhMcE5OWm1qX3FsX0dnM1ozcEUycGdRRU0wNWVpaTdPLW5EUDRYbWhMOVkzWUJVUGZheVVHV2xBdGpzbUpuRzRFU0ItUUR6OWpEb3FfdmZqdEdwZnlxTVp5dGpsSXNfb2lHZ3ZoMzQzak9rQzBtQXNzbWNR",
+    "municipalityId": "tokuno_shima",
+    "MunicipalityName": "徳之島",
+    "date": "2026-10-02T07:00:00",
+    "title": "ツアー造成へ、旅行社招待 徳之島巡り、魅力に触れる 県東京観光連絡協｜社会・経済 - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi2gJBVV95cUxPTjluMHJ5QXNIdXBabExfWEZJSGl1TmJPbUE5aV...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
+    "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPTjluMHJ5QXNIdXBabExfWEZJSGl1TmJPbUE5aVRldlluTnBscnF2Sjk5TkxxalNMSjU5M0Y1eW1mSDBLRHJabVZuTkp5Uld5alBOMy1oaFZGVzlxX2tuM3VCX0o1alhFTktjSmFOTzZqTFg0bmtpNzU4TUMyVV81bnk4NHFtOGJTQW13dlgxa1M3OERXaTdGcUpzcHd0VjRKcEQwWi1GdU8zNnpmRW9EWXo0NFdPS3I4dU9na3JyYTYyZEd1SVZoODI2SFZDbDlLNWFRLWw0blBUMlBfNXZScFF3SmZPOEhMcE5OWm1qX3FsX0dnM1ozcEUycGdRRU0wNWVpaTdPLW5EUDRYbWhMOVkzWUJVUGZheVVHV2xBdGpzbUpuRzRFU0ItUUR6OWpEb3FfdmZqdEdwZnlxTVp5dGpsSXNfb2lHZ3ZoMzQzak9rQzBtQXNzbWNR?oc=5"
   },
   {
     "id": "CBMi3AJBVV95cUxNdm41elhSLUMtaU5tMnFPVWFJdWNwRktXMzlFcm5Tckc2YmhHQm9nX3dqRlFtd2NUazJhVDVEblhuSHJvakFjRU5ZaFZQeHRPSDduUW8tYVI3Mmg1cC1mdnZMQlgxREpfd1BqeEJsUmVHbjdDcklQaGJ3WEQtWThmYVF1U2tFTHFZMnFhZEN2MnFHTHI2TXRqeXFVN01GRmtXY2tRdm40TUQ2TXFuYWpYb2dsMFNLV3BlX2xHeEVDZTBJZWFBb3hOUkxVWE1FaGdHcDVSQ01ZYXpKZFhYVi02Q0FMMlZoblpPWWxCODkxVUhxX3QxeE5IekpoRVFVN005MFBVTmdxRXIxU0M2VkhhbVJzQnk4aEdSanFzM3VGZ0dtRU81RFczLS1FUDJ3dDBNeDYzREp5MTBLVkpMcnBsNlVMRlpHeFk3QWtKbTZUUnk5eVF3VWlReWxmNHM",
