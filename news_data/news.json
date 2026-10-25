@@ -1,5 +1,16 @@
 [
   {
+    "id": "CBMiV0FVX3lxTE53OEk5XzRnYjRpWko1SWYtUnJVMUQ4TUxWVklyQ1dTX2JZTEJKbERuYVNrSlJKZmlMWEN2cHpHM01kME00Y2l5Q19rOUZHQTdwbEFybzlSRQ",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-25T09:56:59",
+    "title": "奄美新聞 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE53OEk5XzRnYjRpWko1SWYtUnJVMUQ4TUxWVklyQ1...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53OEk5XzRnYjRpWko1SWYtUnJVMUQ4TUxWVklyQ1dTX2JZTEJKbERuYVNrSlJKZmlMWEN2cHpHM01kME00Y2l5Q19rOUZHQTdwbEFybzlSRQ?oc=5"
+  },
+  {
     "id": "CBMiWEFVX3lxTE1PU094NWQ4WW1PU2Npc2xlMWtJRWxZTHpuVFBkeDEtekpaMlpiMDRvN2NSMHdleHBSNGZuYTFVdFZFaUZVeHRnbmUwQWM5ZEViUU9TdUp5QUQ",
     "municipalityId": "setouchi",
     "MunicipalityName": "瀬戸内町",
@@ -9,6 +20,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=瀬戸",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PU094NWQ4WW1PU2Npc2xlMWtJRWxZTHpuVFBkeDEtekpaMlpiMDRvN2NSMHdleHBSNGZuYTFVdFZFaUZVeHRnbmUwQWM5ZEViUU9TdUp5QUQ?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE1aM2ZpS3c1TEl3VFBZMDhkR1dlaU1yeTMtVTBqR00tU1p3Y2VacjZoQkdtT2lWSmZ2NVhGeFNENHVvNDVLN2dOMFpnSnJDc29zWktqSkZ6RQ",
+    "municipalityId": "setouchi",
+    "MunicipalityName": "瀬戸内町",
+    "date": "2026-10-25T07:00:00",
+    "title": "瀬戸内町、離島のオンライン診療実証実験――与路島、請島で試行、医師の負担軽減狙う - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aM2ZpS3c1TEl3VFBZMDhkR1dlaU1yeTMtVTBqR0...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=瀬戸",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aM2ZpS3c1TEl3VFBZMDhkR1dlaU1yeTMtVTBqR00tU1p3Y2VacjZoQkdtT2lWSmZ2NVhGeFNENHVvNDVLN2dOMFpnSnJDc29zWktqSkZ6RQ?oc=5"
   },
   {
     "id": "CBMi2gJBVV95cUxPNGR3dVVMdXpIbVdRaFJPSGx1cmR0Nzd5SGo2ZXFpV0JISmI4N0twTjBfMEQ5WEFpMVhxNlBIXzd0MjdmMkxaNi1reWZxQnJQRXJQS0lWNEhFNEF2T2Z1Tk9WR1I1azFiMS02QXhNazlWR0F5UWh4MzZSeFp5dEtBaU5VckNqb3FjWkpGczVjZTRsSEwyVXpDQTl4a1JIVm52UlFOS3RSbGxiWjF4RjhzSG1qV2lMdTJQdU55UFZMVlRzbUhmTmU3NHdqZ3FXTF91MzMwVFJRcDJrVVNpT0tXbExnTFdfUHR6SXNzd0ZNVVpmbERfcl9WdS1femNLM055ZWQyNUJKU2U3RE54VWdsakk3RGFHckxMMXVFNWdBUlZLMmVYRWRkaWNISERKb1ZsVUpKY3dxRVJMcUVjalptczFTWnA0c0FzU0I1MUthSk5JYXNsMS1xZnR3",
@@ -31,6 +53,17 @@
     "source": "南海日日新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQa3dRbnFXX1p2UG54Z1djSHV1c2dTSjRiaUtSX1Q4TGc1dHdpQnFJZi1lODRvaDVvdERUaTRoWFNvYjFueHpXM05tMkNLWW9wcFZBaWNyUFhFUzR6b1BuQVFKQVAtMFFkU3Y2V3JveWxKWDc4cmE1aFBpZ1NaQ2puel9OTHRWZlQ1eEEtSmI2NmFtaWdNc1RhSDRkcDE0akM0amo0b0xsZDh1TnE1NC1Wd2NBd2tZNmo1VkwzQVBDY3RHZ2dnU3VZZ3p4aDdManNENEx2YkZxOTJIZXRiaW9SVzVhMm1oeVg4RnRzejRFZnlpSWRpVXRJU1BYUHpOQUZOeXBNbTVWYlJwZnQyZkllMXc1YTN5cjBHWlVQd2dNNkYwMEFvMUc4X19XQXFESC0zUjRITUJOZF9wWnRCVUZlS2Q4dng1OTRpSDRHd2cxTWpxRUZCV29F?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTFBweGhKbDJrTTlFOERqa3R4aGhZNkhHMXJjVGJtaGpQY0hyNnVfTGIyLXB5YTRjU3JzdWRNZGxUSnNKYmxQeDFqX1Y0bUFkaTIxeWxidnJ5SQ",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-24T14:37:00",
+    "title": "台風30号 25日夕に奄美最接近 東に進路変え、26日九州本土に - 南日本新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBweGhKbDJrTTlFOERqa3R4aGhZNkhHMXJjVGJtaG...",
+    "source": "南日本新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBweGhKbDJrTTlFOERqa3R4aGhZNkhHMXJjVGJtaGpQY0hyNnVfTGIyLXB5YTRjU3JzdWRNZGxUSnNKYmxQeDFqX1Y0bUFkaTIxeWxidnJ5SQ?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE9yVUJHdWJNUldEcEFpWWI2c0J6QmMya2RFUHRmSEM2Smt3UUd2X2xRM1VReTJFaTVGTG84OWZMeUw4dHRod3dHT3pIUXhQZU9qT2FsLWlETQ",
@@ -5531,6 +5564,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TZVktSnY4YVFUaS1fdm95M1NjVEV2Q2puaTlrQ1k0SXBwNWVfR2FkanptQWVvcmxCMmh6OEdJZHBvbUFpcUVTa3VhRTNTRTBrUjBVbVl0b2k?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE1oVlgwVGI1d0ZjQ1pLWXo0R0p2RVZieDYzWjQwZmprQnFNWTRLU1lQaEZtS292bG5melhhaFJELWJ3Q1Jic2ZrTEJOMEpRdC1YdnZMaXk0TQ",
+    "municipalityId": "okino_erabu",
+    "MunicipalityName": "沖永良部島",
+    "date": "2026-08-22T07:00:00",
+    "title": "奄美考古学会・沖永良部島大会 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1oVlgwVGI1d0ZjQ1pLWXo0R0p2RVZieDYzWjQwZm...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=沖永",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1oVlgwVGI1d0ZjQ1pLWXo0R0p2RVZieDYzWjQwZmprQnFNWTRLU1lQaEZtS292bG5melhhaFJELWJ3Q1Jic2ZrTEJOMEpRdC1YdnZMaXk0TQ?oc=5"
   },
   {
     "id": "CBMipgFBVV95cUxPekxJWGplUE1wd2pqdXVoSjVCNkJvYVphX0ZXUVYtT0ZHX3FHUURiRDlQa1VMSEpZSlYydFdpaC1xTFNmZFlGS3ZiRkM2RUpsUFZ5MWpqZmJDdUV1UHRkbmJDdlV0S3Rvd3BJM0NEMloyMmctZlFYZU1tRl9rb1RWbUZjMDJ2eFNTcm0xSTZSMF80eFQ3c3FxVktPMjFlNTVVUTR5ZDJR",
@@ -15466,6 +15510,17 @@
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBybmRwNjhpZllIUElqX3JLaEtkTmMyQkxDc2I2ajZldzFfWl9XdEh3WVo4eTJ6czNFYi1kMWh4N2hkZzlURVNfX2lRQVoyQWNMUFpLNzVpTQ?oc=5"
   },
   {
+    "id": "CBMi1wJBVV95cUxOM2ZYT1d5MVBxT2hrMFV6Z0VTNzl0ekhWUVZ0bXdGNHZVTHZIaWhiQlFnRXRvaVBBNC1yRjhjNm85dERSWUlkZXZfdTV6cF9QNkZkNVZCSjN6czM0Nk9JRnBoazN3TENfSXlQTk52YTZqRWd6YTV4aE1zVmdmaUNUSm5WUDFWTU9QQVhnakhGZW1Ic0JwdmVDVjZFSXlyeTNicEljNmktT1NWNXZ6VVlEWEowWm1LZ1NxSEhjNWwtOGpUeHJYZHExQjNuX2JFbzhyVHlEbHAyX1dWQk42WWtmNUpvLThKVU1Vb2JZNE1MclpaU3ZGcUI2al9GdWdFeHdtblBmU3ZBWG1zdGpkMlJ4eWFmQ2ZYdTl2eTBhX3ZOdkpHN0xJNkJkdjEzOExqckRFMmJYOHlqQWJ6NDZIWWVNcGJfbFdYQ3VLRTdtLXVjTjNjaDg1LWdj",
+    "municipalityId": "okino_erabu",
+    "MunicipalityName": "沖永良部島",
+    "date": "2026-05-14T07:00:00",
+    "title": "トカラアジサイ開花 沖永良部島 梅雨期の風景彩る清楚な白い花｜自然・気象 - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi1wJBVV95cUxOM2ZYT1d5MVBxT2hrMFV6Z0VTNzl0ekhWUVZ0bX...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=沖永",
+    "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOM2ZYT1d5MVBxT2hrMFV6Z0VTNzl0ekhWUVZ0bXdGNHZVTHZIaWhiQlFnRXRvaVBBNC1yRjhjNm85dERSWUlkZXZfdTV6cF9QNkZkNVZCSjN6czM0Nk9JRnBoazN3TENfSXlQTk52YTZqRWd6YTV4aE1zVmdmaUNUSm5WUDFWTU9QQVhnakhGZW1Ic0JwdmVDVjZFSXlyeTNicEljNmktT1NWNXZ6VVlEWEowWm1LZ1NxSEhjNWwtOGpUeHJYZHExQjNuX2JFbzhyVHlEbHAyX1dWQk42WWtmNUpvLThKVU1Vb2JZNE1MclpaU3ZGcUI2al9GdWdFeHdtblBmU3ZBWG1zdGpkMlJ4eWFmQ2ZYdTl2eTBhX3ZOdkpHN0xJNkJkdjEzOExqckRFMmJYOHlqQWJ6NDZIWWVNcGJfbFdYQ3VLRTdtLXVjTjNjaDg1LWdj?oc=5"
+  },
+  {
     "id": "CBMiX0FVX3lxTE1weXg5VzVqTjd2bTljYlQzWU5SeVZKVjFFaTBzWk9DR2hFX3NFajBTdEtJMnJvR0VpbVhwd2pVTjJueXRHQk5yNVF6THE5Y3R4V1Nrck9QNHFpRS15RFNR",
     "municipalityId": "amami_oshima",
     "MunicipalityName": "奄美大島",
@@ -24341,6 +24396,17 @@
     "source": "南日本新聞",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0tWUpZX1VaOW9sVThFN3RRdmFOZHhJS3NyQlhTcGNObDREZ0Z6dWJXRTdhb1J2REpWUzNVUzhCekxINlRDbGRZTk41UVRBbUVuN1VGdm9pbkFFOWFQcmN2RmcwRkx2UnRmanl4eDFTSFpDajVtaFhRZllzaw?oc=5"
+  },
+  {
+    "id": "CBMiYEFVX3lxTE9zQUx4WGdnRG80SDRLaTZLZ2FvLTdfcDRhRGRrcjF3a01ydjllQUYzZHh4RXVPdzlBYWtDUERhdGxlMjRZYThhNk5DbnJjSEpIV2FQYUMxSDBlZG1iWlIyWA",
+    "municipalityId": "okino_erabu",
+    "MunicipalityName": "沖永良部島",
+    "date": "2026-02-09T08:00:00",
+    "title": "沖永良部島で初の「世之主サミット」 四天王ゆかりの地から集い伝承語る - 奄美群島南三島経済新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zQUx4WGdnRG80SDRLaTZLZ2FvLTdfcDRhRGRrcj...",
+    "source": "奄美群島南三島経済新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=沖永",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zQUx4WGdnRG80SDRLaTZLZ2FvLTdfcDRhRGRrcjF3a01ydjllQUYzZHh4RXVPdzlBYWtDUERhdGxlMjRZYThhNk5DbnJjSEpIV2FQYUMxSDBlZG1iWlIyWA?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE9CS2ljbEFpc3FwaUlRTEpoREdyYXF3MkNMckx6bzZfT3JwVU0zSE0xLTVpWm85OTZlZWN1WHRMV0FaN3BaeXl0VlNBYUUwZWNCN2ZUQVp3SQ",
