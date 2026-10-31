@@ -1,5 +1,38 @@
 [
   {
+    "id": "CBMiV0FVX3lxTE9RanItTEVuMjR3OWZwSmdPR2xkdE1rUDBwcFZqa0tXaEUyeVRIR0xDbkk0N2c3eXdBWHhCTGRPRjNfZHNCSHVkanQwOFlKejBUN1FtZ2ZlNA",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-31T13:00:18",
+    "title": "大島地区読書フェスタ - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RanItTEVuMjR3OWZwSmdPR2xkdE1rUDBwcFZqa0...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RanItTEVuMjR3OWZwSmdPR2xkdE1rUDBwcFZqa0tXaEUyeVRIR0xDbkk0N2c3eXdBWHhCTGRPRjNfZHNCSHVkanQwOFlKejBUN1FtZ2ZlNA?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE9IQVBBRTY0SDM1R1RndGhHVFpXeFE4MzNxOTJZSlJpbGx4cmZUTnV6NGIwQ18zNXZ3VDY5RFJhR3czWnQ1Q3VMYXVwZEhQZjVkWThiYXM1cw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2026-10-31T10:00:13",
+    "title": "クロウサギ生態・最新調査成果報告 - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IQVBBRTY0SDM1R1RndGhHVFpXeFE4MzNxOTJZSl...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IQVBBRTY0SDM1R1RndGhHVFpXeFE4MzNxOTJZSlJpbGx4cmZUTnV6NGIwQ18zNXZ3VDY5RFJhR3czWnQ1Q3VMYXVwZEhQZjVkWThiYXM1cw?oc=5"
+  },
+  {
+    "id": "CBMiV0FVX3lxTE4zTlh5cTdkTDZOZTBqVUw1NU1MRk1mU1VZVUFzR3lyQWlqdUE2Y2hmM0d2NWgyeTdwWm9YX0VsUXY0bHJwelRfNFZyelEtMVVEMGZObHNpdw",
+    "municipalityId": "tokunoshima",
+    "MunicipalityName": "徳之島町",
+    "date": "2026-10-31T10:00:11",
+    "title": "徳之島町どんどん祭り - 奄美新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zTlh5cTdkTDZOZTBqVUw1NU1MRk1mU1VZVUFzR3...",
+    "source": "奄美新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=徳之",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zTlh5cTdkTDZOZTBqVUw1NU1MRk1mU1VZVUFzR3lyQWlqdUE2Y2hmM0d2NWgyeTdwWm9YX0VsUXY0bHJwelRfNFZyelEtMVVEMGZObHNpdw?oc=5"
+  },
+  {
     "id": "CBMi1AJBVV95cUxNbmg0UWpBVWQ2eFEtaXVvc0w0ZVBnNDBwUG5NSjFvZnl1bUVUSjJySTVGMWg5OWZmd3JQU3FRUEVKOXBsV0RlYUVzNVpiZFdORnZNZGZGSFlBSGxkb3BWcWZ3VGttUGFTbS12eTZnVG92R2luMUdsVl9CSEFQN0Y4RGFseG9Zb29DVW9RamtMWjNxXzFpRUNxeDlFbGlkWjNFZ3Q2Z1dEd25lS0ZMU1RWRVUwRnJ4dlg0N2JOdS0xenppaHZyUkpLVVZMVVRINTRVOV9Kb2JJQS1jOGpTTlpXaG9INUVpdEJyZ3g1Z2tzQUhzTUNpVVdEWk4ySVIyUjJDR0RHXzdGRUJ4TDZ1QU9IYzVYM0RuNnZVU0toYUxTcklha2FuQWJpUDJHRWs3RVhKUGUweEprN2V3dmZ6ek9ZY0haQ1BnUmdVRDh3V0tXSVhOWDFZ",
     "municipalityId": "amami",
     "MunicipalityName": "奄美市",
@@ -30919,6 +30952,17 @@
     "source": "琉球新報",
     "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=与論",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tRV95ZnNaYkJWM09POWRwZEhlbnNGcHlYZ0FvMTlHV3I4OGNhUmUwS1MycnRoVm5KQ2NYRnQ0d3ZvcFVJbUFkUmxaaG1yd19maEtxbGRiMF9jUDg?oc=5"
+  },
+  {
+    "id": "CBMi1wFBVV95cUxNXzhSLUZjSV9vbEdxdk51VVpITFBWeTMyUVlrbEVGQlhDUlFSdk9FR0QzZVR5cjNPSWc4UENsOVluS3pmTHJXY2E0WEZPUmJoUXV6dGc2MW1WM0lSVDIwRmdwYkVldkpTV0RmX2l3dXp1Y19CRUdsUjJDUnFpOHB4c0pCMHhwU3JMY3JZVEcyVDZlS1VMenZZVWVMRTE5OXpFdzBLV0dpU0hXQ0szT0VLMGp4Q3BESllDV1RUOVhjbFl2eExCMDFsYVJicnd6bndjS1ZEMU5Dbw",
+    "municipalityId": "amami_oshima",
+    "MunicipalityName": "奄美大島",
+    "date": "2025-11-20T08:00:00",
+    "title": "奄美大島いきものがたり - 南海日日新聞",
+    "content": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNXzhSLUZjSV9vbEdxdk51VVpITFBWeTMyUVlrbE...",
+    "source": "南海日日新聞",
+    "imageUrl": "https://placehold.co/100x70/0099c6/FFF?text=奄美",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNXzhSLUZjSV9vbEdxdk51VVpITFBWeTMyUVlrbEVGQlhDUlFSdk9FR0QzZVR5cjNPSWc4UENsOVluS3pmTHJXY2E0WEZPUmJoUXV6dGc2MW1WM0lSVDIwRmdwYkVldkpTV0RmX2l3dXp1Y19CRUdsUjJDUnFpOHB4c0pCMHhwU3JMY3JZVEcyVDZlS1VMenZZVWVMRTE5OXpFdzBLV0dpU0hXQ0szT0VLMGp4Q3BESllDV1RUOVhjbFl2eExCMDFsYVJicnd6bndjS1ZEMU5Dbw?oc=5"
   },
   {
     "id": "CBMiV0FVX3lxTE9Gbm01cVhBbEs0VjU3ZjU1clVaVXZwblk4NkJ4UzhNUjRoV3BNWVlwQllKeWNxYUpZTHhtREM1NFE1M25OSnlwT1ZQRmlzbUwtSk9xUU1YQQ",
